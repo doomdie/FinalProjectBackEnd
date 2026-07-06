@@ -327,3 +327,57 @@
 13.6.2026, 14:27:08 - INFO - Server is running on port: 3030
 13.6.2026, 14:27:09 - INFO - New connected socket [id: fa-mfixvFfAuhjd5AAAB]
 13.6.2026, 14:27:09 - INFO - New connected socket [id: CtdVdGLJdT4-jhyRAAAD]
+6.7.2026, 12:53:41 - INFO - Server is running on port: 3030
+6.7.2026, 12:53:41 - INFO - New connected socket [id: lDrYnBYlf6FFXGndAAAB]
+6.7.2026, 12:53:43 - INFO - Socket disconnected [id: undefined]
+6.7.2026, 12:53:43 - INFO - New connected socket [id: esslRmAPeRsbacpCAAAD]
+6.7.2026, 12:53:43 - INFO - Setting socket.userId = Xl53T for socket [id: esslRmAPeRsbacpCAAAD]
+6.7.2026, 12:55:58 - INFO - Socket disconnected [id: undefined]
+6.7.2026, 12:55:58 - INFO - New connected socket [id: oKCJacR0tOUtTVePAAAF]
+6.7.2026, 12:55:59 - INFO - Setting socket.userId = Xl53T for socket [id: oKCJacR0tOUtTVePAAAF]
+6.7.2026, 12:59:47 - INFO - Socket disconnected [id: undefined]
+6.7.2026, 12:59:48 - INFO - New connected socket [id: nqob9H9H0ZuO7DsrAAAH]
+6.7.2026, 12:59:48 - INFO - Setting socket.userId = Xl53T for socket [id: nqob9H9H0ZuO7DsrAAAH]
+6.7.2026, 13:03:16 - INFO - Server is running on port: 3030
+6.7.2026, 13:03:17 - INFO - New connected socket [id: 60dYWjplcaVvB1RRAAAB]
+6.7.2026, 13:03:30 - INFO - Server is running on port: 3030
+6.7.2026, 13:03:31 - INFO - New connected socket [id: MKJcj4UZGDo1QYU8AAAB]
+6.7.2026, 13:03:31 - INFO - Setting socket.userId = Xl53T for socket [id: MKJcj4UZGDo1QYU8AAAB]
+6.7.2026, 13:04:08 - INFO - Server is running on port: 3030
+6.7.2026, 13:04:09 - INFO - New connected socket [id: AybMyh-0vUtakXT-AAAB]
+6.7.2026, 13:04:59 - INFO - Server is running on port: 3030
+6.7.2026, 13:04:59 - INFO - User collection is empty, seeding default users...
+6.7.2026, 13:04:59 - ERROR - Failed to seed user collection: | ReferenceError: gDefaultUsers is not defined
+6.7.2026, 13:05:00 - INFO - New connected socket [id: 3qbn-kpRkYzcLVHgAAAB]
+6.7.2026, 13:05:26 - INFO - Server is running on port: 3030
+6.7.2026, 13:05:26 - INFO - User collection is empty, seeding default users...
+6.7.2026, 13:05:26 - INFO - Successfully seeded 5438 users!
+6.7.2026, 13:05:29 - INFO - New connected socket [id: TzpJbWnMhpHNoZIjAAAB]
+6.7.2026, 13:05:29 - INFO - Setting socket.userId = Xl53T for socket [id: TzpJbWnMhpHNoZIjAAAB]
+6.7.2026, 13:07:20 - INFO - Socket disconnected [id: undefined]
+6.7.2026, 13:07:21 - INFO - New connected socket [id: HO2IzrV7gj6UC7hsAAAD]
+6.7.2026, 13:07:21 - INFO - Setting socket.userId = Xl53T for socket [id: HO2IzrV7gj6UC7hsAAAD]
+6.7.2026, 13:11:24 - INFO - Socket disconnected [id: undefined]
+6.7.2026, 13:11:24 - INFO - New connected socket [id: 4ZLl-lCYNug4SmQtAAAF]
+6.7.2026, 13:11:24 - INFO - Setting socket.userId = Xl53T for socket [id: 4ZLl-lCYNug4SmQtAAAF]
+6.7.2026, 13:11:27 - INFO - Socket disconnected [id: undefined]
+6.7.2026, 13:11:27 - INFO - New connected socket [id: qvTPBwcRql4h4dYGAAAH]
+6.7.2026, 13:11:27 - INFO - Setting socket.userId = Xl53T for socket [id: qvTPBwcRql4h4dYGAAAH]
+6.7.2026, 13:15:06 - INFO - Server is running on port: 3030
+6.7.2026, 13:15:07 - INFO - New connected socket [id: 4cSgoZ_8DtFBygsZAAAB]
+6.7.2026, 13:15:33 - INFO - Socket disconnected [id: undefined]
+6.7.2026, 13:15:33 - INFO - New connected socket [id: OxxGcWWPx-q-ktoGAAAD]
+6.7.2026, 13:15:34 - INFO - Setting socket.userId = Xl53T for socket [id: OxxGcWWPx-q-ktoGAAAD]
+6.7.2026, 13:15:37 - INFO - Socket disconnected [id: undefined]
+6.7.2026, 13:15:37 - INFO - New connected socket [id: d9kQJqTXjVI_qt3QAAAF]
+6.7.2026, 13:15:38 - INFO - Setting socket.userId = Xl53T for socket [id: d9kQJqTXjVI_qt3QAAAF]
+6.7.2026, 13:15:40 - INFO - Socket disconnected [id: undefined]
+6.7.2026, 13:15:40 - INFO - New connected socket [id: TyYkDCYywfuhJsCTAAAH]
+6.7.2026, 13:15:40 - INFO - Setting socket.userId = Xl53T for socket [id: TyYkDCYywfuhJsCTAAAH]
+6.7.2026, 13:16:09 - INFO - Server is running on port: 3030
+6.7.2026, 13:16:10 - INFO - New connected socket [id: lNHgNxpX9JUsIgcOAAAB]
+6.7.2026, 13:16:11 - INFO - Server is running on port: 3030
+6.7.2026, 13:16:12 - INFO - New connected socket [id: U6zO1yzd6F6X7UA5AAAB]
+6.7.2026, 13:16:15 - INFO - Socket disconnected [id: undefined]
+6.7.2026, 13:16:16 - INFO - New connected socket [id: NNJHIoDdBPP6VorFAAAD]
+6.7.2026, 13:16:16 - INFO - Setting socket.userId = Xl53T for socket [id: NNJHIoDdBPP6VorFAAAD]

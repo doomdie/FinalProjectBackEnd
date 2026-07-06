@@ -1,5 +1,6 @@
 import { dbService } from '../../services/db.service.js'
 import { ObjectId } from 'mongodb'
+
 import gDefaultStays from './stay.json' with { type: 'json' }
 async function query(filterBy = {}) {
     try {
@@ -8,7 +9,16 @@ async function query(filterBy = {}) {
         
         const count = await collection.countDocuments()
         if (count === 0) {
-            await collection.insertMany(gDefaultStays)
+            console.log('Stay collection is empty, seeding default stays with native ObjectIds...')
+            
+            const staysToInsert = gDefaultStays.map(stay => {
+                return {
+                    ...stay,
+                    _id: new ObjectId(stay._id)
+                }
+            })
+
+            await collection.insertMany(staysToInsert)
             console.log('Seeded MongoDB with default stays!')
         }
 
@@ -56,10 +66,18 @@ async function save(stay) {
 
 async function getById(stayId) {
     try {
+        if (!ObjectId.isValid(stayId)) {
+            console.error(`❌ Invalid MongoDB ObjectId format received: "${stayId}"`)
+            return null
+        }
+
         const collection = await dbService.getCollection('stay')
         const stay = await collection.findOne({ _id: new ObjectId(stayId) })
+        
+        if (!stay) console.log(`⚠️ Stay with ID ${stayId} was not found in MongoDB.`)
         return stay
     } catch (err) {
+        console.error('❌ Error inside stay.service.js getById:', err)
         throw err
     }
 }
