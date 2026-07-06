@@ -1,6 +1,6 @@
 import Cryptr from 'cryptr'
 import bcrypt from 'bcrypt'
-
+import { dbService } from "../../services/db.service.js"
 import { userService } from '../user/user.service.js'
 import { logger } from '../../services/logger.service.js'
 
@@ -13,19 +13,34 @@ export const authService = {
 	validateToken,
 }
 
+// async function login(username, password) {
+// 	logger.debug(`auth.service - login with username: ${username}`)
+
+// 	const user = await userService.getByUsername(username)
+// 	if (!user) return Promise.reject('Invalid username or password')
+
+// 	// TODO: un-comment for real login
+// 	// const match = await bcrypt.compare(password, user.password)
+// 	// if (!match) return Promise.reject('Invalid username or password')
+
+// 	delete user.password
+// 	user._id = user._id.toString()
+// 	return user
+// }
+// backend/api/auth/auth.controller.js
+
 async function login(username, password) {
-	logger.debug(`auth.service - login with username: ${username}`)
+    logger.debug(`auth.service - login with username: ${username}`)
+   
 
-	const user = await userService.getByUsername(username)
-	if (!user) return Promise.reject('Invalid username or password')
+    const collection = await dbService.getCollection('user')
+    const user = await collection.findOne({ username })
+    
+    if (!user) throw new Error('Invalid username or password')
 
-	// TODO: un-comment for real login
-	// const match = await bcrypt.compare(password, user.password)
-	// if (!match) return Promise.reject('Invalid username or password')
+    if (user.password !== password) throw new Error('Invalid username or password')
 
-	delete user.password
-	user._id = user._id.toString()
-	return user
+    return user
 }
 
 async function signup({ username, password, fullname, imgUrl, isAdmin }) {
@@ -47,6 +62,7 @@ function getLoginToken(user) {
         fullname: user.fullname, 
         score: user.score,
         isAdmin: user.isAdmin,
+		imgUrl: user.imgUrl
     }
 	return cryptr.encrypt(JSON.stringify(userInfo))
 }
