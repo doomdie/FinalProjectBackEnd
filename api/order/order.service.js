@@ -80,18 +80,45 @@ async function _seedPastOrders() {
         console.error('❌ Failed to seed historic order collection:', err)
     }
 }
+// async function query(filterBy = {}) {
+//     try {
+//         const collection = await dbService.getCollection('order')
+//         // ADD FILTERING 
+//         const orders = await collection.find({}).toArray()
+//         return orders
+//     } catch (err) {
+//         logger.error('cannot find orders', err)
+//         throw err
+//     }
+// }
 async function query(filterBy = {}) {
     try {
+        const criteria = {}
+
+        if (filterBy.hostId) {
+            criteria.hostId = filterBy.hostId
+        }
+
+        if (filterBy.buyerId) {
+            criteria.$or = [
+                { 'buyer._id': filterBy.buyerId },
+                { 'buyer.id': filterBy.buyerId }
+            ]
+        }
+
+        if (filterBy.status) {
+            criteria.status = filterBy.status
+        }
+
         const collection = await dbService.getCollection('order')
-        // ADD FILTERING 
-        const orders = await collection.find({}).toArray()
+        
+        const orders = await collection.find(criteria).toArray()
         return orders
     } catch (err) {
         logger.error('cannot find orders', err)
         throw err
     }
 }
-
 async function getById(orderId) {
     try {
         const collection = await dbService.getCollection('order')
