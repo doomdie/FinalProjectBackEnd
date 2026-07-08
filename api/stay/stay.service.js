@@ -1,7 +1,7 @@
 import { dbService } from '../../services/db.service.js'
 import { ObjectId } from 'mongodb'
-
 import gDefaultStays from './stay.json' with { type: 'json' }
+
 async function query(filterBy = {}) {
     try {
         const criteria = _buildCriteria(filterBy)
@@ -28,6 +28,7 @@ async function query(filterBy = {}) {
         throw err
     }
 }
+
 async function remove(stayId) {
     try {
         const collection = await dbService.getCollection('stay')
@@ -38,6 +39,7 @@ async function remove(stayId) {
         throw err
     }
 }
+
 async function save(stay) {
     try {
         const collection = await dbService.getCollection('stay')
@@ -98,11 +100,40 @@ function _buildCriteria(filterBy) {
         criteria.amenities = { $all: wanted }
     }
     
+    if (filterBy.likedByUserId) {
+        criteria.likedByUsers = filterBy.likedByUserId
+    }
+    
     return criteria
+}
+
+async function toggleLike(stayId, userId, isLike) {
+    try {
+        if (!ObjectId.isValid(stayId)) {
+            throw new Error(`Invalid stayId format: ${stayId}`)
+        }
+
+        const collection = await dbService.getCollection('stay')
+        
+        const updateOperator = isLike 
+            ? { $addToSet: { likedByUsers: userId.toString() } } 
+            : { $pull: { likedByUsers: userId.toString() } }
+
+        const result = await collection.updateOne(
+            { _id: new ObjectId(stayId) },
+            updateOperator
+        )
+        return result
+    } catch (err) {
+        console.error('Error in stayService toggleLike:', err)
+        throw err
+    }
 }
 
 export const stayService = {
     query,
     getById,
-    remove
+    remove,
+    save,
+    toggleLike
 }
