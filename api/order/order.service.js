@@ -44,7 +44,7 @@ async function _seedPastOrders() {
                 pastStartDate.setDate(today.getDate() - (i * 5) - 3)
 
                 const pastEndDate = new Date(pastStartDate)
-                pastEndDate.setDate(pastStartDate.getDate() + 3) 
+                pastEndDate.setDate(pastStartDate.getDate() + 3)
 
                 const mockOrder = {
                     hostId: randomStay.host._id || randomStay.host.id,
@@ -66,7 +66,7 @@ async function _seedPastOrders() {
                         pets: 0
                     },
                     totalPrice: randomStay.price * 3,
-                    status: 'approved' 
+                    status: 'approved'
                 }
 
                 ordersToInsert.push(mockOrder)
@@ -74,10 +74,10 @@ async function _seedPastOrders() {
         })
 
         await orderCollection.insertMany(ordersToInsert)
-        console.log(`🚀 Successfully seeded ${ordersToInsert.length} historic orders into MongoDB!`)
+        console.log(` Successfully seeded ${ordersToInsert.length} historic orders into MongoDB!`)
 
     } catch (err) {
-        console.error('❌ Failed to seed historic order collection:', err)
+        console.error(' Failed to seed historic order collection:', err)
     }
 }
 // async function query(filterBy = {}) {
@@ -111,7 +111,7 @@ async function query(filterBy = {}) {
         }
 
         const collection = await dbService.getCollection('order')
-        
+
         const orders = await collection.find(criteria).toArray()
         return orders
     } catch (err) {
