@@ -4,15 +4,24 @@ import { userService } from '../user/user.service.js'
 import { authService } from '../auth/auth.service.js'
 import { reviewService } from './review.service.js'
 
+// export async function getReviews(req, res) {
+// 	try {
+// 		const reviews = await reviewService.query(req.query)
+// 		res.send(reviews)
+// 	} catch (err) {
+// 		logger.error('Cannot get reviews', err)
+// 		res.status(400).send({ err: 'Failed to get reviews' })
+// 	}
 export async function getReviews(req, res) {
-	try {
-		const reviews = await reviewService.query(req.query)
-		res.send(reviews)
-	} catch (err) {
-		logger.error('Cannot get reviews', err)
-		res.status(400).send({ err: 'Failed to get reviews' })
-	}
+    try {
+        console.log('REAL BACKEND QUERY RECEIVED:', req.query) // <-- ADD THIS LOG
+        const reviews = await reviewService.query(req.query)
+        res.json(reviews)
+    } catch (err) {
+        res.status(500).send({ err: 'Failed to get reviews' })
+    }
 }
+// }
 
 export async function deleteReview(req, res) {
 	var { loggedinUser } = req

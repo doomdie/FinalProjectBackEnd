@@ -12,7 +12,6 @@ export const orderService = {
 
 
 
-_seedPastOrders()
 
 async function _seedPastOrders() {
     try {
