@@ -30,17 +30,19 @@ export const authService = {
 // backend/api/auth/auth.controller.js
 
 async function login(username, password) {
-    logger.debug(`auth.service - login with username: ${username}`)
-   
+	logger.debug(`auth.service - login with username: ${username}`)
 
-    const collection = await dbService.getCollection('user')
-    const user = await collection.findOne({ username })
-    
-    if (!user) throw new Error('Invalid username or password')
 
-    if (user.password !== password) throw new Error('Invalid username or password')
+	const collection = await dbService.getCollection('user')
+	const user = await collection.findOne({ username })
 
-    return user
+	if (!user) throw new Error('Invalid username or password')
+
+	const match = await bcrypt.compare(password, user.password)
+	if (!match) throw new Error('Invalid username or password')
+
+	delete user.password
+	return user
 }
 
 async function signup({ username, password, fullname, imgUrl, isAdmin }) {
@@ -57,14 +59,14 @@ async function signup({ username, password, fullname, imgUrl, isAdmin }) {
 }
 
 function getLoginToken(user) {
-	const userInfo = { 
-        _id: user._id, 
-        fullname: user.fullname, 
-        score: user.score,
-        isAdmin: user.isAdmin,
+	const userInfo = {
+		_id: user._id,
+		fullname: user.fullname,
+		score: user.score,
+		isAdmin: user.isAdmin,
 		description: user.description || '',
 		imgUrl: user.imgUrl
-    }
+	}
 	return cryptr.encrypt(JSON.stringify(userInfo))
 }
 
