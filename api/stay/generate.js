@@ -1,41 +1,41 @@
-import fs from 'fs';
-import { ObjectId } from 'mongodb'; // THIS IS THE MISSING PIECE
+import { dbService } from './services/db.service.js';
 
-// Load your existing data
-const users = JSON.parse(fs.readFileSync('./users.json', 'utf8'));
-const stays = JSON.parse(fs.readFileSync('./stay.json', 'utf8'));
+// These match your AMENITY_ICON_MAP keys for perfect frontend rendering
+const VALID_AMENITIES = [
+    'Wifi', 'Internet', 'Kitchen', 'TV', 'Washer', 'Dryer', 
+    'Smoke detector', 'Dedicated workspace', 'Air conditioning', 
+    'Essentials', 'Hangers', 'Carbon monoxide detector', 
+    'Balcony', 'Iron', 'Heating', 'Luggage dropoff allowed', 
+    'Free parking on premises'
+];
 
-const reviews = [];
-const guests = users.filter(u => !u.isHost); 
+async function updateAmenitiesOnly() {
+    console.log('--- UPDATING AMENITIES ONLY ---');
+    
+    try {
+        const stayCol = await dbService.getCollection('stay');
+        const stays = await stayCol.find().toArray();
 
-stays.forEach(stay => {
-    // Ensure stay._id is a string if it's currently an object
-    const stayId = typeof stay._id === 'object' ? stay._id.$oid || stay._id : stay._id;
-
-    const numReviews = Math.floor(Math.random() * 5) + 1; 
-
-    for (let i = 0; i < numReviews; i++) {
-        const randomGuest = guests[Math.floor(Math.random() * guests.length)];
+        for (const stay of stays) {
+            // Shuffle the valid list and pick 5-10 random items
+            const shuffled = [...VALID_AMENITIES].sort(() => 0.5 - Math.random());
+            const randomCount = Math.floor(Math.random() * (10 - 5 + 1)) + 5;
+            const newAmenities = shuffled.slice(0, randomCount);
+            
+            // Update only the amenities field
+            await stayCol.updateOne(
+                { _id: stay._id },
+                { $set: { amenities: newAmenities } }
+            );
+            
+            console.log(`UPDATED AMENITIES: ${stay.name}`);
+        }
         
-        reviews.push({
-            _id: new ObjectId().toHexString(), 
-            targetId: stayId, // Correctly linked
-            targetType: 'stay',
-            txt: "Amazing place, highly recommended! Great location and clean.", 
-            rating: Math.floor(Math.random() * 5) + 1, 
-            createdAt: Date.now(),
-            byUser: {
-                _id: randomGuest._id,
-                fullname: randomGuest.fullname,
-                imgUrl: randomGuest.imgUrl
-            },
-            targetStay: {
-                _id: stayId,
-                name: stay.name
-            }
-        });
+        console.log('--- AMENITIES UPDATE COMPLETE ---');
+    } catch (err) {
+        console.error('--- FAILED ---', err);
     }
-});
+    process.exit(0);
+}
 
-fs.writeFileSync('./reviews.json', JSON.stringify(reviews, null, 2));
-console.log(`Generated ${reviews.length} reviews for ${stays.length} stays.`);
+updateAmenitiesOnly();

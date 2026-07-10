@@ -1,21 +1,50 @@
-import { ObjectId } from 'mongodb'
-import { dbService } from './services/db.service.js'
+import { dbService } from './services/db.service.js';
 
-async function debugIDType(idString) {
-    const collection = await dbService.getCollection('review')
+async function deleteHostSelfReviews() {
+    console.log('--- STARTING: DELETING HOST SELF-REVIEWS ---');
 
-    const asString = await collection.findOne({ targetId: idString })
-    console.log('SEARCH AS STRING:', asString ? 'FOUND!' : 'NOT FOUND')
+    try {
+        const reviewCol = await dbService.getCollection('review');
+        const stayCol = await dbService.getCollection('stay');
 
-    const asObjectId = await collection.findOne({ targetId: new ObjectId(idString) })
-    console.log('SEARCH AS OBJECTID:', asObjectId ? 'FOUND!' : 'NOT FOUND')
+        // 1. Fetch all stays to create a lookup map of stayId -> hostId
+        const stays = await stayCol.find().toArray();
+        const stayHostMap = new Map();
+        
+        stays.forEach(stay => {
+            // Adjust 'host._id' if your path to the host ID is different
+            if (stay.host && stay.host._id) {
+                stayHostMap.set(stay._id.toString(), stay.host._id.toString());
+            }
+        });
 
-    const raw = await collection.findOne({})
-    console.log('RAW DATA SAMPLE:', raw)
-    console.log('IS targetId AN OBJECTID?', raw.targetId instanceof ObjectId)
-    const testId = '6a4f7144e8f1e739c4da5c01';
-    const found = await collection.findOne({ targetId: new ObjectId(testId) });
-    console.log('DID I FIND IT?', found ? 'YES!' : 'NO');
+        // 2. Fetch all reviews
+        const reviews = await reviewCol.find().toArray();
+        const idsToDelete = [];
+
+        // 3. Identify reviews where reviewerId === hostId
+        reviews.forEach(review => {
+            const hostId = stayHostMap.get(review.targetId.toString());
+            const reviewerId = review.byUserId.toString();
+
+            if (hostId && reviewerId === hostId) {
+                idsToDelete.push(review._id);
+                console.log(`FLAGGED: Review ${review._id} by host ${reviewerId} on stay ${review.targetId}`);
+            }
+        });
+
+        // 4. Perform deletion
+        if (idsToDelete.length > 0) {
+            const result = await reviewCol.deleteMany({ _id: { $in: idsToDelete } });
+            console.log(`--- CLEANUP COMPLETE: Deleted ${result.deletedCount} self-reviews ---`);
+        } else {
+            console.log('--- NO SELF-REVIEWS FOUND ---');
+        }
+
+    } catch (err) {
+        console.error('--- CLEANUP FAILED ---', err);
+    }
+    process.exit(0);
 }
 
-debugIDType('622f337a75c7d36e498aab33')
+deleteHostSelfReviews();

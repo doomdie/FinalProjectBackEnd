@@ -1,0 +1,2042 @@
+[
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef0001"
+    },
+    "txt": "Amazing place, highly recommended! Great location and clean.",
+    "rating": 1,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-01-01T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c01"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b01"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef0002"
+    },
+    "txt": "Really enjoyed our stay. The host was very responsive.",
+    "rating": 5,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-02-02T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c01"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b04"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef0003"
+    },
+    "txt": "Perfect spot for exploring the city. Would definitely come back.",
+    "rating": 5,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-03-03T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c01"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b07"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef0004"
+    },
+    "txt": "Great value for money. Everything was as described.",
+    "rating": 4,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-04-04T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c01"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b10"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef0005"
+    },
+    "txt": "Lovely apartment with all the amenities you need.",
+    "rating": 3,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-05-05T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c02"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b08"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef0006"
+    },
+    "txt": "Quiet neighborhood but close to everything. Loved it!",
+    "rating": 3,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-06-06T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c02"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b11"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef0007"
+    },
+    "txt": "Very clean and well-maintained. Exactly what we needed.",
+    "rating": 2,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-01-07T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c02"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b14"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef0008"
+    },
+    "txt": "Fantastic location and comfortable beds. Slept like a baby.",
+    "rating": 1,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-02-08T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c02"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b17"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef0009"
+    },
+    "txt": "The host was super helpful. Great experience overall.",
+    "rating": 1,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-03-09T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c03"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b15"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef000a"
+    },
+    "txt": "Cozy and charming place. Felt like home immediately.",
+    "rating": 5,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-04-10T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c03"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b18"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef000b"
+    },
+    "txt": "Beautiful views and great amenities. Will book again.",
+    "rating": 4,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-05-11T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c03"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b01"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef000c"
+    },
+    "txt": "Highly recommend this place. Top notch in every way.",
+    "rating": 4,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-06-12T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c03"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b04"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef000d"
+    },
+    "txt": "Wonderful stay! Clean, convenient, and comfortable.",
+    "rating": 3,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-01-13T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c04"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b02"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef000e"
+    },
+    "txt": "Everything was perfect. Great communication from host.",
+    "rating": 2,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-02-14T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c04"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b05"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef000f"
+    },
+    "txt": "Stunning place in a great area. Exceeded expectations.",
+    "rating": 2,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-03-15T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c04"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b08"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef0010"
+    },
+    "txt": "Amazing place, highly recommended! Great location and clean.",
+    "rating": 1,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-04-16T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c04"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b11"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef0011"
+    },
+    "txt": "Really enjoyed our stay. The host was very responsive.",
+    "rating": 5,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-05-17T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c05"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b09"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef0012"
+    },
+    "txt": "Perfect spot for exploring the city. Would definitely come back.",
+    "rating": 5,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-06-18T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c05"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b12"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef0013"
+    },
+    "txt": "Great value for money. Everything was as described.",
+    "rating": 4,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-01-19T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c05"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b15"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef0014"
+    },
+    "txt": "Lovely apartment with all the amenities you need.",
+    "rating": 3,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-02-20T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c05"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b18"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef0015"
+    },
+    "txt": "Quiet neighborhood but close to everything. Loved it!",
+    "rating": 3,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-03-21T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c06"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b16"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef0016"
+    },
+    "txt": "Very clean and well-maintained. Exactly what we needed.",
+    "rating": 2,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-04-22T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c06"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b19"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef0017"
+    },
+    "txt": "Fantastic location and comfortable beds. Slept like a baby.",
+    "rating": 1,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-05-23T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c06"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b02"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef0018"
+    },
+    "txt": "The host was super helpful. Great experience overall.",
+    "rating": 5,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-06-24T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c06"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b05"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef0019"
+    },
+    "txt": "Cozy and charming place. Felt like home immediately.",
+    "rating": 5,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-01-25T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c07"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b03"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef001a"
+    },
+    "txt": "Beautiful views and great amenities. Will book again.",
+    "rating": 4,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-02-26T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c07"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b06"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef001b"
+    },
+    "txt": "Highly recommend this place. Top notch in every way.",
+    "rating": 3,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-03-27T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c07"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b09"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef001c"
+    },
+    "txt": "Wonderful stay! Clean, convenient, and comfortable.",
+    "rating": 3,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-04-28T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c07"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b12"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef001d"
+    },
+    "txt": "Everything was perfect. Great communication from host.",
+    "rating": 2,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-05-01T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c08"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b10"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef001e"
+    },
+    "txt": "Stunning place in a great area. Exceeded expectations.",
+    "rating": 1,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-06-02T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c08"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b13"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef001f"
+    },
+    "txt": "Amazing place, highly recommended! Great location and clean.",
+    "rating": 1,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-01-03T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c08"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b16"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef0020"
+    },
+    "txt": "Really enjoyed our stay. The host was very responsive.",
+    "rating": 5,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-02-04T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c08"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b19"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef0021"
+    },
+    "txt": "Perfect spot for exploring the city. Would definitely come back.",
+    "rating": 4,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-03-05T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c09"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b17"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef0022"
+    },
+    "txt": "Great value for money. Everything was as described.",
+    "rating": 4,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-04-06T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c09"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b20"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef0023"
+    },
+    "txt": "Lovely apartment with all the amenities you need.",
+    "rating": 3,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-05-07T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c09"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b03"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef0024"
+    },
+    "txt": "Quiet neighborhood but close to everything. Loved it!",
+    "rating": 2,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-06-08T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c09"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b06"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef0025"
+    },
+    "txt": "Very clean and well-maintained. Exactly what we needed.",
+    "rating": 2,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-01-09T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c10"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b04"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef0026"
+    },
+    "txt": "Fantastic location and comfortable beds. Slept like a baby.",
+    "rating": 1,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-02-10T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c10"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b07"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef0027"
+    },
+    "txt": "The host was super helpful. Great experience overall.",
+    "rating": 5,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-03-11T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c10"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b10"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef0028"
+    },
+    "txt": "Cozy and charming place. Felt like home immediately.",
+    "rating": 5,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-04-12T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c10"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b13"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef0029"
+    },
+    "txt": "Beautiful views and great amenities. Will book again.",
+    "rating": 4,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-05-13T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c11"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b11"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef002a"
+    },
+    "txt": "Highly recommend this place. Top notch in every way.",
+    "rating": 3,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-06-14T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c11"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b14"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef002b"
+    },
+    "txt": "Wonderful stay! Clean, convenient, and comfortable.",
+    "rating": 3,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-01-15T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c11"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b17"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef002c"
+    },
+    "txt": "Everything was perfect. Great communication from host.",
+    "rating": 2,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-02-16T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c11"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b20"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef002d"
+    },
+    "txt": "Stunning place in a great area. Exceeded expectations.",
+    "rating": 1,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-03-17T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c12"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b18"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef002e"
+    },
+    "txt": "Amazing place, highly recommended! Great location and clean.",
+    "rating": 1,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-04-18T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c12"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b01"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef002f"
+    },
+    "txt": "Really enjoyed our stay. The host was very responsive.",
+    "rating": 5,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-05-19T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c12"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b04"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef0030"
+    },
+    "txt": "Perfect spot for exploring the city. Would definitely come back.",
+    "rating": 4,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-06-20T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c12"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b07"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef0031"
+    },
+    "txt": "Great value for money. Everything was as described.",
+    "rating": 4,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-01-21T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c13"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b05"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef0032"
+    },
+    "txt": "Lovely apartment with all the amenities you need.",
+    "rating": 3,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-02-22T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c13"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b08"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef0033"
+    },
+    "txt": "Quiet neighborhood but close to everything. Loved it!",
+    "rating": 2,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-03-23T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c13"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b11"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef0034"
+    },
+    "txt": "Very clean and well-maintained. Exactly what we needed.",
+    "rating": 2,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-04-24T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c13"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b14"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef0035"
+    },
+    "txt": "Fantastic location and comfortable beds. Slept like a baby.",
+    "rating": 1,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-05-25T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c14"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b12"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef0036"
+    },
+    "txt": "The host was super helpful. Great experience overall.",
+    "rating": 5,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-06-26T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c14"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b15"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef0037"
+    },
+    "txt": "Cozy and charming place. Felt like home immediately.",
+    "rating": 5,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-01-27T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c14"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b18"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef0038"
+    },
+    "txt": "Beautiful views and great amenities. Will book again.",
+    "rating": 4,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-02-28T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c14"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b01"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef0039"
+    },
+    "txt": "Highly recommend this place. Top notch in every way.",
+    "rating": 3,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-03-01T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c15"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b19"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef003a"
+    },
+    "txt": "Wonderful stay! Clean, convenient, and comfortable.",
+    "rating": 3,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-04-02T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c15"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b02"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef003b"
+    },
+    "txt": "Everything was perfect. Great communication from host.",
+    "rating": 2,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-05-03T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c15"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b05"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef003c"
+    },
+    "txt": "Stunning place in a great area. Exceeded expectations.",
+    "rating": 1,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-06-04T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c15"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b08"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef003d"
+    },
+    "txt": "Amazing place, highly recommended! Great location and clean.",
+    "rating": 1,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-01-05T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c16"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b06"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef003e"
+    },
+    "txt": "Really enjoyed our stay. The host was very responsive.",
+    "rating": 5,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-02-06T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c16"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b09"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef003f"
+    },
+    "txt": "Perfect spot for exploring the city. Would definitely come back.",
+    "rating": 4,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-03-07T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c16"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b12"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef0040"
+    },
+    "txt": "Great value for money. Everything was as described.",
+    "rating": 3,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-04-08T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c16"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b15"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef0041"
+    },
+    "txt": "Lovely apartment with all the amenities you need.",
+    "rating": 3,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-05-09T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c17"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b13"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef0042"
+    },
+    "txt": "Quiet neighborhood but close to everything. Loved it!",
+    "rating": 2,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-06-10T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c17"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b16"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef0043"
+    },
+    "txt": "Very clean and well-maintained. Exactly what we needed.",
+    "rating": 1,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-01-11T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c17"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b19"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef0044"
+    },
+    "txt": "Fantastic location and comfortable beds. Slept like a baby.",
+    "rating": 1,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-02-12T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c17"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b02"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef0045"
+    },
+    "txt": "The host was super helpful. Great experience overall.",
+    "rating": 5,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-03-13T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c18"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b20"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef0046"
+    },
+    "txt": "Cozy and charming place. Felt like home immediately.",
+    "rating": 4,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-04-14T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c18"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b03"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef0047"
+    },
+    "txt": "Beautiful views and great amenities. Will book again.",
+    "rating": 4,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-05-15T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c18"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b06"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef0048"
+    },
+    "txt": "Highly recommend this place. Top notch in every way.",
+    "rating": 3,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-06-16T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c18"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b09"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef0049"
+    },
+    "txt": "Wonderful stay! Clean, convenient, and comfortable.",
+    "rating": 2,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-01-17T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c19"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b07"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef004a"
+    },
+    "txt": "Everything was perfect. Great communication from host.",
+    "rating": 2,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-02-18T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c19"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b10"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef004b"
+    },
+    "txt": "Stunning place in a great area. Exceeded expectations.",
+    "rating": 1,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-03-19T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c19"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b13"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef004c"
+    },
+    "txt": "Amazing place, highly recommended! Great location and clean.",
+    "rating": 5,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-04-20T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c19"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b16"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef004d"
+    },
+    "txt": "Really enjoyed our stay. The host was very responsive.",
+    "rating": 5,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-05-21T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c20"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b14"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef004e"
+    },
+    "txt": "Perfect spot for exploring the city. Would definitely come back.",
+    "rating": 4,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-06-22T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c20"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b17"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef004f"
+    },
+    "txt": "Great value for money. Everything was as described.",
+    "rating": 3,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-01-23T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c20"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b20"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef0050"
+    },
+    "txt": "Lovely apartment with all the amenities you need.",
+    "rating": 3,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-02-24T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c20"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b03"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef0051"
+    },
+    "txt": "Quiet neighborhood but close to everything. Loved it!",
+    "rating": 2,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-03-25T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c21"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b01"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef0052"
+    },
+    "txt": "Very clean and well-maintained. Exactly what we needed.",
+    "rating": 1,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-04-26T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c21"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b04"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef0053"
+    },
+    "txt": "Fantastic location and comfortable beds. Slept like a baby.",
+    "rating": 1,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-05-27T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c21"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b07"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef0054"
+    },
+    "txt": "The host was super helpful. Great experience overall.",
+    "rating": 5,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-06-28T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c21"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b10"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef0055"
+    },
+    "txt": "Cozy and charming place. Felt like home immediately.",
+    "rating": 4,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-01-01T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c22"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b08"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef0056"
+    },
+    "txt": "Beautiful views and great amenities. Will book again.",
+    "rating": 4,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-02-02T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c22"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b11"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef0057"
+    },
+    "txt": "Highly recommend this place. Top notch in every way.",
+    "rating": 3,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-03-03T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c22"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b14"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef0058"
+    },
+    "txt": "Wonderful stay! Clean, convenient, and comfortable.",
+    "rating": 2,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-04-04T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c22"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b17"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef0059"
+    },
+    "txt": "Everything was perfect. Great communication from host.",
+    "rating": 2,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-05-05T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c23"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b15"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef005a"
+    },
+    "txt": "Stunning place in a great area. Exceeded expectations.",
+    "rating": 1,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-06-06T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c23"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b18"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef005b"
+    },
+    "txt": "Amazing place, highly recommended! Great location and clean.",
+    "rating": 5,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-01-07T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c23"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b01"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef005c"
+    },
+    "txt": "Really enjoyed our stay. The host was very responsive.",
+    "rating": 5,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-02-08T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c23"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b04"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef005d"
+    },
+    "txt": "Perfect spot for exploring the city. Would definitely come back.",
+    "rating": 4,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-03-09T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c24"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b02"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef005e"
+    },
+    "txt": "Great value for money. Everything was as described.",
+    "rating": 3,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-04-10T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c24"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b05"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef005f"
+    },
+    "txt": "Lovely apartment with all the amenities you need.",
+    "rating": 3,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-05-11T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c24"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b08"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef0060"
+    },
+    "txt": "Quiet neighborhood but close to everything. Loved it!",
+    "rating": 2,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-06-12T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c24"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b11"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef0061"
+    },
+    "txt": "Very clean and well-maintained. Exactly what we needed.",
+    "rating": 1,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-01-13T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c25"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b09"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef0062"
+    },
+    "txt": "Fantastic location and comfortable beds. Slept like a baby.",
+    "rating": 1,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-02-14T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c25"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b12"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef0063"
+    },
+    "txt": "The host was super helpful. Great experience overall.",
+    "rating": 5,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-03-15T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c25"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b15"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef0064"
+    },
+    "txt": "Cozy and charming place. Felt like home immediately.",
+    "rating": 4,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-04-16T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c25"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b18"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef0065"
+    },
+    "txt": "Beautiful views and great amenities. Will book again.",
+    "rating": 4,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-05-17T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c26"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b16"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef0066"
+    },
+    "txt": "Highly recommend this place. Top notch in every way.",
+    "rating": 3,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-06-18T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c26"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b19"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef0067"
+    },
+    "txt": "Wonderful stay! Clean, convenient, and comfortable.",
+    "rating": 2,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-01-19T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c26"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b02"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef0068"
+    },
+    "txt": "Everything was perfect. Great communication from host.",
+    "rating": 2,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-02-20T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c26"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b05"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef0069"
+    },
+    "txt": "Stunning place in a great area. Exceeded expectations.",
+    "rating": 1,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-03-21T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c27"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b03"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef006a"
+    },
+    "txt": "Amazing place, highly recommended! Great location and clean.",
+    "rating": 5,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-04-22T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c27"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b06"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef006b"
+    },
+    "txt": "Really enjoyed our stay. The host was very responsive.",
+    "rating": 4,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-05-23T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c27"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b09"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef006c"
+    },
+    "txt": "Perfect spot for exploring the city. Would definitely come back.",
+    "rating": 4,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-06-24T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c27"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b12"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef006d"
+    },
+    "txt": "Great value for money. Everything was as described.",
+    "rating": 3,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-01-25T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c28"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b10"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef006e"
+    },
+    "txt": "Lovely apartment with all the amenities you need.",
+    "rating": 2,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-02-26T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c28"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b13"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef006f"
+    },
+    "txt": "Quiet neighborhood but close to everything. Loved it!",
+    "rating": 2,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-03-27T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c28"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b16"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef0070"
+    },
+    "txt": "Very clean and well-maintained. Exactly what we needed.",
+    "rating": 1,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-04-28T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c28"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b19"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef0071"
+    },
+    "txt": "Fantastic location and comfortable beds. Slept like a baby.",
+    "rating": 5,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-05-01T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c29"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b17"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef0072"
+    },
+    "txt": "The host was super helpful. Great experience overall.",
+    "rating": 5,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-06-02T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c29"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b20"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef0073"
+    },
+    "txt": "Cozy and charming place. Felt like home immediately.",
+    "rating": 4,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-01-03T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c29"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b03"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef0074"
+    },
+    "txt": "Beautiful views and great amenities. Will book again.",
+    "rating": 3,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-02-04T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c29"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b06"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef0075"
+    },
+    "txt": "Highly recommend this place. Top notch in every way.",
+    "rating": 3,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-03-05T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c30"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b04"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef0076"
+    },
+    "txt": "Wonderful stay! Clean, convenient, and comfortable.",
+    "rating": 2,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-04-06T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c30"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b07"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef0077"
+    },
+    "txt": "Everything was perfect. Great communication from host.",
+    "rating": 1,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-05-07T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c30"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b10"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a51efdfbd332d1d48ef0078"
+    },
+    "txt": "Stunning place in a great area. Exceeded expectations.",
+    "rating": 1,
+    "targetType": "stay",
+    "createdAt": {
+      "$date": "2026-06-08T10:00:00.000Z"
+    },
+    "targetId": {
+      "$oid": "6a4f7144e8f1e739c4da5c30"
+    },
+    "byUserId": {
+      "$oid": "6a4f7144e8f1e739c4da5b13"
+    }
+  }
+]
