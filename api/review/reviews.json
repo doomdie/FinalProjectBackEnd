@@ -1,0 +1,1549 @@
+[
+  {
+    "_id": "6a50ef8eae54cf910d7f36de",
+    "targetId": "6a4f7144e8f1e739c4da5c01",
+    "targetType": "stay",
+    "txt": "Amazing place, highly recommended! Great location and clean.",
+    "rating": 1,
+    "createdAt": 1783689102481,
+    "byUser": {
+      "_id": "6a4f7144e8f1e739c4da5b11",
+      "fullname": "Guest Eight",
+      "imgUrl": "https://randomuser.me/api/portraits/men/6.jpg"
+    },
+    "targetStay": {
+      "_id": "6a4f7144e8f1e739c4da5c01",
+      "name": "Tel Aviv Beach Loft"
+    }
+  },
+  {
+    "_id": "6a50ef8eae54cf910d7f36df",
+    "targetId": "6a4f7144e8f1e739c4da5c02",
+    "targetType": "stay",
+    "txt": "Amazing place, highly recommended! Great location and clean.",
+    "rating": 2,
+    "createdAt": 1783689102481,
+    "byUser": {
+      "_id": "6a4f7144e8f1e739c4da5b11",
+      "fullname": "Guest Eight",
+      "imgUrl": "https://randomuser.me/api/portraits/men/6.jpg"
+    },
+    "targetStay": {
+      "_id": "6a4f7144e8f1e739c4da5c02",
+      "name": "Jaffa Old City Gem"
+    }
+  },
+  {
+    "_id": "6a50ef8eae54cf910d7f36e0",
+    "targetId": "6a4f7144e8f1e739c4da5c02",
+    "targetType": "stay",
+    "txt": "Amazing place, highly recommended! Great location and clean.",
+    "rating": 2,
+    "createdAt": 1783689102481,
+    "byUser": {
+      "_id": "6a4f7144e8f1e739c4da5b14",
+      "fullname": "Guest Eleven",
+      "imgUrl": "https://randomuser.me/api/portraits/women/8.jpg"
+    },
+    "targetStay": {
+      "_id": "6a4f7144e8f1e739c4da5c02",
+      "name": "Jaffa Old City Gem"
+    }
+  },
+  {
+    "_id": "6a50ef8eae54cf910d7f36e1",
+    "targetId": "6a4f7144e8f1e739c4da5c02",
+    "targetType": "stay",
+    "txt": "Amazing place, highly recommended! Great location and clean.",
+    "rating": 4,
+    "createdAt": 1783689102481,
+    "byUser": {
+      "_id": "6a4f7144e8f1e739c4da5b10",
+      "fullname": "Guest Seven",
+      "imgUrl": "https://randomuser.me/api/portraits/women/6.jpg"
+    },
+    "targetStay": {
+      "_id": "6a4f7144e8f1e739c4da5c02",
+      "name": "Jaffa Old City Gem"
+    }
+  },
+  {
+    "_id": "6a50ef8eae54cf910d7f36e2",
+    "targetId": "6a4f7144e8f1e739c4da5c02",
+    "targetType": "stay",
+    "txt": "Amazing place, highly recommended! Great location and clean.",
+    "rating": 1,
+    "createdAt": 1783689102481,
+    "byUser": {
+      "_id": "6a4f7144e8f1e739c4da5b11",
+      "fullname": "Guest Eight",
+      "imgUrl": "https://randomuser.me/api/portraits/men/6.jpg"
+    },
+    "targetStay": {
+      "_id": "6a4f7144e8f1e739c4da5c02",
+      "name": "Jaffa Old City Gem"
+    }
+  },
+  {
+    "_id": "6a50ef8eae54cf910d7f36e3",
+    "targetId": "6a4f7144e8f1e739c4da5c02",
+    "targetType": "stay",
+    "txt": "Amazing place, highly recommended! Great location and clean.",
+    "rating": 2,
+    "createdAt": 1783689102481,
+    "byUser": {
+      "_id": "6a4f7144e8f1e739c4da5b20",
+      "fullname": "Guest Seventeen",
+      "imgUrl": "https://randomuser.me/api/portraits/women/11.jpg"
+    },
+    "targetStay": {
+      "_id": "6a4f7144e8f1e739c4da5c02",
+      "name": "Jaffa Old City Gem"
+    }
+  },
+  {
+    "_id": "6a50ef8eae54cf910d7f36e4",
+    "targetId": "6a4f7144e8f1e739c4da5c03",
+    "targetType": "stay",
+    "txt": "Amazing place, highly recommended! Great location and clean.",
+    "rating": 2,
+    "createdAt": 1783689102481,
+    "byUser": {
+      "_id": "6a4f7144e8f1e739c4da5b10",
+      "fullname": "Guest Seven",
+      "imgUrl": "https://randomuser.me/api/portraits/women/6.jpg"
+    },
+    "targetStay": {
+      "_id": "6a4f7144e8f1e739c4da5c03",
+      "name": "Neve Tzedek Studio"
+    }
+  },
+  {
+    "_id": "6a50ef8eae54cf910d7f36e5",
+    "targetId": "6a4f7144e8f1e739c4da5c03",
+    "targetType": "stay",
+    "txt": "Amazing place, highly recommended! Great location and clean.",
+    "rating": 3,
+    "createdAt": 1783689102481,
+    "byUser": {
+      "_id": "6a4f7144e8f1e739c4da5b20",
+      "fullname": "Guest Seventeen",
+      "imgUrl": "https://randomuser.me/api/portraits/women/11.jpg"
+    },
+    "targetStay": {
+      "_id": "6a4f7144e8f1e739c4da5c03",
+      "name": "Neve Tzedek Studio"
+    }
+  },
+  {
+    "_id": "6a50ef8eae54cf910d7f36e6",
+    "targetId": "6a4f7144e8f1e739c4da5c03",
+    "targetType": "stay",
+    "txt": "Amazing place, highly recommended! Great location and clean.",
+    "rating": 1,
+    "createdAt": 1783689102481,
+    "byUser": {
+      "_id": "6a4f7144e8f1e739c4da5b17",
+      "fullname": "Guest Fourteen",
+      "imgUrl": "https://randomuser.me/api/portraits/men/9.jpg"
+    },
+    "targetStay": {
+      "_id": "6a4f7144e8f1e739c4da5c03",
+      "name": "Neve Tzedek Studio"
+    }
+  },
+  {
+    "_id": "6a50ef8eae54cf910d7f36e7",
+    "targetId": "6a4f7144e8f1e739c4da5c03",
+    "targetType": "stay",
+    "txt": "Amazing place, highly recommended! Great location and clean.",
+    "rating": 4,
+    "createdAt": 1783689102481,
+    "byUser": {
+      "_id": "6a4f7144e8f1e739c4da5b10",
+      "fullname": "Guest Seven",
+      "imgUrl": "https://randomuser.me/api/portraits/women/6.jpg"
+    },
+    "targetStay": {
+      "_id": "6a4f7144e8f1e739c4da5c03",
+      "name": "Neve Tzedek Studio"
+    }
+  },
+  {
+    "_id": "6a50ef8eae54cf910d7f36e8",
+    "targetId": "6a4f7144e8f1e739c4da5c03",
+    "targetType": "stay",
+    "txt": "Amazing place, highly recommended! Great location and clean.",
+    "rating": 3,
+    "createdAt": 1783689102481,
+    "byUser": {
+      "_id": "6a4f7144e8f1e739c4da5b20",
+      "fullname": "Guest Seventeen",
+      "imgUrl": "https://randomuser.me/api/portraits/women/11.jpg"
+    },
+    "targetStay": {
+      "_id": "6a4f7144e8f1e739c4da5c03",
+      "name": "Neve Tzedek Studio"
+    }
+  },
+  {
+    "_id": "6a50ef8eae54cf910d7f36e9",
+    "targetId": "6a4f7144e8f1e739c4da5c04",
+    "targetType": "stay",
+    "txt": "Amazing place, highly recommended! Great location and clean.",
+    "rating": 4,
+    "createdAt": 1783689102481,
+    "byUser": {
+      "_id": "6a4f7144e8f1e739c4da5b07",
+      "fullname": "Guest Four",
+      "imgUrl": "https://randomuser.me/api/portraits/men/4.jpg"
+    },
+    "targetStay": {
+      "_id": "6a4f7144e8f1e739c4da5c04",
+      "name": "Sarona Garden View"
+    }
+  },
+  {
+    "_id": "6a50ef8eae54cf910d7f36ea",
+    "targetId": "6a4f7144e8f1e739c4da5c04",
+    "targetType": "stay",
+    "txt": "Amazing place, highly recommended! Great location and clean.",
+    "rating": 1,
+    "createdAt": 1783689102481,
+    "byUser": {
+      "_id": "6a4f7144e8f1e739c4da5b05",
+      "fullname": "Guest Two",
+      "imgUrl": "https://randomuser.me/api/portraits/men/3.jpg"
+    },
+    "targetStay": {
+      "_id": "6a4f7144e8f1e739c4da5c04",
+      "name": "Sarona Garden View"
+    }
+  },
+  {
+    "_id": "6a50ef8eae54cf910d7f36eb",
+    "targetId": "6a4f7144e8f1e739c4da5c04",
+    "targetType": "stay",
+    "txt": "Amazing place, highly recommended! Great location and clean.",
+    "rating": 4,
+    "createdAt": 1783689102481,
+    "byUser": {
+      "_id": "6a4f7144e8f1e739c4da5b11",
+      "fullname": "Guest Eight",
+      "imgUrl": "https://randomuser.me/api/portraits/men/6.jpg"
+    },
+    "targetStay": {
+      "_id": "6a4f7144e8f1e739c4da5c04",
+      "name": "Sarona Garden View"
+    }
+  },
+  {
+    "_id": "6a50ef8eae54cf910d7f36ec",
+    "targetId": "6a4f7144e8f1e739c4da5c05",
+    "targetType": "stay",
+    "txt": "Amazing place, highly recommended! Great location and clean.",
+    "rating": 4,
+    "createdAt": 1783689102481,
+    "byUser": {
+      "_id": "6a4f7144e8f1e739c4da5b16",
+      "fullname": "Guest Thirteen",
+      "imgUrl": "https://randomuser.me/api/portraits/women/9.jpg"
+    },
+    "targetStay": {
+      "_id": "6a4f7144e8f1e739c4da5c05",
+      "name": "Rothschild Penthouse"
+    }
+  },
+  {
+    "_id": "6a50ef8eae54cf910d7f36ed",
+    "targetId": "6a4f7144e8f1e739c4da5c06",
+    "targetType": "stay",
+    "txt": "Amazing place, highly recommended! Great location and clean.",
+    "rating": 3,
+    "createdAt": 1783689102481,
+    "byUser": {
+      "_id": "6a4f7144e8f1e739c4da5b04",
+      "fullname": "Guest One",
+      "imgUrl": "https://randomuser.me/api/portraits/women/2.jpg"
+    },
+    "targetStay": {
+      "_id": "6a4f7144e8f1e739c4da5c06",
+      "name": "Port Vibes Apartment"
+    }
+  },
+  {
+    "_id": "6a50ef8eae54cf910d7f36ee",
+    "targetId": "6a4f7144e8f1e739c4da5c06",
+    "targetType": "stay",
+    "txt": "Amazing place, highly recommended! Great location and clean.",
+    "rating": 2,
+    "createdAt": 1783689102481,
+    "byUser": {
+      "_id": "6a4f7144e8f1e739c4da5b14",
+      "fullname": "Guest Eleven",
+      "imgUrl": "https://randomuser.me/api/portraits/women/8.jpg"
+    },
+    "targetStay": {
+      "_id": "6a4f7144e8f1e739c4da5c06",
+      "name": "Port Vibes Apartment"
+    }
+  },
+  {
+    "_id": "6a50ef8eae54cf910d7f36ef",
+    "targetId": "6a4f7144e8f1e739c4da5c06",
+    "targetType": "stay",
+    "txt": "Amazing place, highly recommended! Great location and clean.",
+    "rating": 1,
+    "createdAt": 1783689102481,
+    "byUser": {
+      "_id": "6a4f7144e8f1e739c4da5b12",
+      "fullname": "Guest Nine",
+      "imgUrl": "https://randomuser.me/api/portraits/women/7.jpg"
+    },
+    "targetStay": {
+      "_id": "6a4f7144e8f1e739c4da5c06",
+      "name": "Port Vibes Apartment"
+    }
+  },
+  {
+    "_id": "6a50ef8eae54cf910d7f36f0",
+    "targetId": "6a4f7144e8f1e739c4da5c06",
+    "targetType": "stay",
+    "txt": "Amazing place, highly recommended! Great location and clean.",
+    "rating": 2,
+    "createdAt": 1783689102481,
+    "byUser": {
+      "_id": "6a4f7144e8f1e739c4da5b05",
+      "fullname": "Guest Two",
+      "imgUrl": "https://randomuser.me/api/portraits/men/3.jpg"
+    },
+    "targetStay": {
+      "_id": "6a4f7144e8f1e739c4da5c06",
+      "name": "Port Vibes Apartment"
+    }
+  },
+  {
+    "_id": "6a50ef8eae54cf910d7f36f1",
+    "targetId": "6a4f7144e8f1e739c4da5c07",
+    "targetType": "stay",
+    "txt": "Amazing place, highly recommended! Great location and clean.",
+    "rating": 5,
+    "createdAt": 1783689102481,
+    "byUser": {
+      "_id": "6a4f7144e8f1e739c4da5b16",
+      "fullname": "Guest Thirteen",
+      "imgUrl": "https://randomuser.me/api/portraits/women/9.jpg"
+    },
+    "targetStay": {
+      "_id": "6a4f7144e8f1e739c4da5c07",
+      "name": "Florentin Hipster Pad"
+    }
+  },
+  {
+    "_id": "6a50ef8eae54cf910d7f36f2",
+    "targetId": "6a4f7144e8f1e739c4da5c07",
+    "targetType": "stay",
+    "txt": "Amazing place, highly recommended! Great location and clean.",
+    "rating": 2,
+    "createdAt": 1783689102481,
+    "byUser": {
+      "_id": "6a4f7144e8f1e739c4da5b15",
+      "fullname": "Guest Twelve",
+      "imgUrl": "https://randomuser.me/api/portraits/men/8.jpg"
+    },
+    "targetStay": {
+      "_id": "6a4f7144e8f1e739c4da5c07",
+      "name": "Florentin Hipster Pad"
+    }
+  },
+  {
+    "_id": "6a50ef8eae54cf910d7f36f3",
+    "targetId": "6a4f7144e8f1e739c4da5c07",
+    "targetType": "stay",
+    "txt": "Amazing place, highly recommended! Great location and clean.",
+    "rating": 5,
+    "createdAt": 1783689102481,
+    "byUser": {
+      "_id": "6a4f7144e8f1e739c4da5b20",
+      "fullname": "Guest Seventeen",
+      "imgUrl": "https://randomuser.me/api/portraits/women/11.jpg"
+    },
+    "targetStay": {
+      "_id": "6a4f7144e8f1e739c4da5c07",
+      "name": "Florentin Hipster Pad"
+    }
+  },
+  {
+    "_id": "6a50ef8eae54cf910d7f36f4",
+    "targetId": "6a4f7144e8f1e739c4da5c08",
+    "targetType": "stay",
+    "txt": "Amazing place, highly recommended! Great location and clean.",
+    "rating": 3,
+    "createdAt": 1783689102481,
+    "byUser": {
+      "_id": "6a4f7144e8f1e739c4da5b04",
+      "fullname": "Guest One",
+      "imgUrl": "https://randomuser.me/api/portraits/women/2.jpg"
+    },
+    "targetStay": {
+      "_id": "6a4f7144e8f1e739c4da5c08",
+      "name": "North TLV Suite"
+    }
+  },
+  {
+    "_id": "6a50ef8eae54cf910d7f36f5",
+    "targetId": "6a4f7144e8f1e739c4da5c08",
+    "targetType": "stay",
+    "txt": "Amazing place, highly recommended! Great location and clean.",
+    "rating": 4,
+    "createdAt": 1783689102481,
+    "byUser": {
+      "_id": "6a4f7144e8f1e739c4da5b15",
+      "fullname": "Guest Twelve",
+      "imgUrl": "https://randomuser.me/api/portraits/men/8.jpg"
+    },
+    "targetStay": {
+      "_id": "6a4f7144e8f1e739c4da5c08",
+      "name": "North TLV Suite"
+    }
+  },
+  {
+    "_id": "6a50ef8eae54cf910d7f36f6",
+    "targetId": "6a4f7144e8f1e739c4da5c08",
+    "targetType": "stay",
+    "txt": "Amazing place, highly recommended! Great location and clean.",
+    "rating": 5,
+    "createdAt": 1783689102481,
+    "byUser": {
+      "_id": "6a4f7144e8f1e739c4da5b11",
+      "fullname": "Guest Eight",
+      "imgUrl": "https://randomuser.me/api/portraits/men/6.jpg"
+    },
+    "targetStay": {
+      "_id": "6a4f7144e8f1e739c4da5c08",
+      "name": "North TLV Suite"
+    }
+  },
+  {
+    "_id": "6a50ef8eae54cf910d7f36f7",
+    "targetId": "6a4f7144e8f1e739c4da5c09",
+    "targetType": "stay",
+    "txt": "Amazing place, highly recommended! Great location and clean.",
+    "rating": 2,
+    "createdAt": 1783689102481,
+    "byUser": {
+      "_id": "6a4f7144e8f1e739c4da5b20",
+      "fullname": "Guest Seventeen",
+      "imgUrl": "https://randomuser.me/api/portraits/women/11.jpg"
+    },
+    "targetStay": {
+      "_id": "6a4f7144e8f1e739c4da5c09",
+      "name": "Ibn Gabirol Modern"
+    }
+  },
+  {
+    "_id": "6a50ef8eae54cf910d7f36f8",
+    "targetId": "6a4f7144e8f1e739c4da5c10",
+    "targetType": "stay",
+    "txt": "Amazing place, highly recommended! Great location and clean.",
+    "rating": 2,
+    "createdAt": 1783689102481,
+    "byUser": {
+      "_id": "6a4f7144e8f1e739c4da5b11",
+      "fullname": "Guest Eight",
+      "imgUrl": "https://randomuser.me/api/portraits/men/6.jpg"
+    },
+    "targetStay": {
+      "_id": "6a4f7144e8f1e739c4da5c10",
+      "name": "Hayarkon Park View"
+    }
+  },
+  {
+    "_id": "6a50ef8eae54cf910d7f36f9",
+    "targetId": "6a4f7144e8f1e739c4da5c10",
+    "targetType": "stay",
+    "txt": "Amazing place, highly recommended! Great location and clean.",
+    "rating": 3,
+    "createdAt": 1783689102481,
+    "byUser": {
+      "_id": "6a4f7144e8f1e739c4da5b20",
+      "fullname": "Guest Seventeen",
+      "imgUrl": "https://randomuser.me/api/portraits/women/11.jpg"
+    },
+    "targetStay": {
+      "_id": "6a4f7144e8f1e739c4da5c10",
+      "name": "Hayarkon Park View"
+    }
+  },
+  {
+    "_id": "6a50ef8eae54cf910d7f36fa",
+    "targetId": "6a4f7144e8f1e739c4da5c10",
+    "targetType": "stay",
+    "txt": "Amazing place, highly recommended! Great location and clean.",
+    "rating": 4,
+    "createdAt": 1783689102481,
+    "byUser": {
+      "_id": "6a4f7144e8f1e739c4da5b10",
+      "fullname": "Guest Seven",
+      "imgUrl": "https://randomuser.me/api/portraits/women/6.jpg"
+    },
+    "targetStay": {
+      "_id": "6a4f7144e8f1e739c4da5c10",
+      "name": "Hayarkon Park View"
+    }
+  },
+  {
+    "_id": "6a50ef8eae54cf910d7f36fb",
+    "targetId": "6a4f7144e8f1e739c4da5c11",
+    "targetType": "stay",
+    "txt": "Amazing place, highly recommended! Great location and clean.",
+    "rating": 1,
+    "createdAt": 1783689102481,
+    "byUser": {
+      "_id": "6a4f7144e8f1e739c4da5b04",
+      "fullname": "Guest One",
+      "imgUrl": "https://randomuser.me/api/portraits/women/2.jpg"
+    },
+    "targetStay": {
+      "_id": "6a4f7144e8f1e739c4da5c11",
+      "name": "Haifa Bay Apartment"
+    }
+  },
+  {
+    "_id": "6a50ef8eae54cf910d7f36fc",
+    "targetId": "6a4f7144e8f1e739c4da5c11",
+    "targetType": "stay",
+    "txt": "Amazing place, highly recommended! Great location and clean.",
+    "rating": 3,
+    "createdAt": 1783689102481,
+    "byUser": {
+      "_id": "6a4f7144e8f1e739c4da5b13",
+      "fullname": "Guest Ten",
+      "imgUrl": "https://randomuser.me/api/portraits/men/7.jpg"
+    },
+    "targetStay": {
+      "_id": "6a4f7144e8f1e739c4da5c11",
+      "name": "Haifa Bay Apartment"
+    }
+  },
+  {
+    "_id": "6a50ef8eae54cf910d7f36fd",
+    "targetId": "6a4f7144e8f1e739c4da5c11",
+    "targetType": "stay",
+    "txt": "Amazing place, highly recommended! Great location and clean.",
+    "rating": 3,
+    "createdAt": 1783689102481,
+    "byUser": {
+      "_id": "6a4f7144e8f1e739c4da5b12",
+      "fullname": "Guest Nine",
+      "imgUrl": "https://randomuser.me/api/portraits/women/7.jpg"
+    },
+    "targetStay": {
+      "_id": "6a4f7144e8f1e739c4da5c11",
+      "name": "Haifa Bay Apartment"
+    }
+  },
+  {
+    "_id": "6a50ef8eae54cf910d7f36fe",
+    "targetId": "6a4f7144e8f1e739c4da5c11",
+    "targetType": "stay",
+    "txt": "Amazing place, highly recommended! Great location and clean.",
+    "rating": 1,
+    "createdAt": 1783689102481,
+    "byUser": {
+      "_id": "6a4f7144e8f1e739c4da5b05",
+      "fullname": "Guest Two",
+      "imgUrl": "https://randomuser.me/api/portraits/men/3.jpg"
+    },
+    "targetStay": {
+      "_id": "6a4f7144e8f1e739c4da5c11",
+      "name": "Haifa Bay Apartment"
+    }
+  },
+  {
+    "_id": "6a50ef8eae54cf910d7f36ff",
+    "targetId": "6a4f7144e8f1e739c4da5c11",
+    "targetType": "stay",
+    "txt": "Amazing place, highly recommended! Great location and clean.",
+    "rating": 4,
+    "createdAt": 1783689102481,
+    "byUser": {
+      "_id": "6a4f7144e8f1e739c4da5b14",
+      "fullname": "Guest Eleven",
+      "imgUrl": "https://randomuser.me/api/portraits/women/8.jpg"
+    },
+    "targetStay": {
+      "_id": "6a4f7144e8f1e739c4da5c11",
+      "name": "Haifa Bay Apartment"
+    }
+  },
+  {
+    "_id": "6a50ef8eae54cf910d7f3700",
+    "targetId": "6a4f7144e8f1e739c4da5c12",
+    "targetType": "stay",
+    "txt": "Amazing place, highly recommended! Great location and clean.",
+    "rating": 2,
+    "createdAt": 1783689102481,
+    "byUser": {
+      "_id": "6a4f7144e8f1e739c4da5b15",
+      "fullname": "Guest Twelve",
+      "imgUrl": "https://randomuser.me/api/portraits/men/8.jpg"
+    },
+    "targetStay": {
+      "_id": "6a4f7144e8f1e739c4da5c12",
+      "name": "Carmel Mountain Lodge"
+    }
+  },
+  {
+    "_id": "6a50ef8eae54cf910d7f3701",
+    "targetId": "6a4f7144e8f1e739c4da5c13",
+    "targetType": "stay",
+    "txt": "Amazing place, highly recommended! Great location and clean.",
+    "rating": 5,
+    "createdAt": 1783689102481,
+    "byUser": {
+      "_id": "6a4f7144e8f1e739c4da5b07",
+      "fullname": "Guest Four",
+      "imgUrl": "https://randomuser.me/api/portraits/men/4.jpg"
+    },
+    "targetStay": {
+      "_id": "6a4f7144e8f1e739c4da5c13",
+      "name": "Downtown Haifa Modern"
+    }
+  },
+  {
+    "_id": "6a50ef8eae54cf910d7f3702",
+    "targetId": "6a4f7144e8f1e739c4da5c13",
+    "targetType": "stay",
+    "txt": "Amazing place, highly recommended! Great location and clean.",
+    "rating": 3,
+    "createdAt": 1783689102481,
+    "byUser": {
+      "_id": "6a4f7144e8f1e739c4da5b05",
+      "fullname": "Guest Two",
+      "imgUrl": "https://randomuser.me/api/portraits/men/3.jpg"
+    },
+    "targetStay": {
+      "_id": "6a4f7144e8f1e739c4da5c13",
+      "name": "Downtown Haifa Modern"
+    }
+  },
+  {
+    "_id": "6a50ef8eae54cf910d7f3703",
+    "targetId": "6a4f7144e8f1e739c4da5c14",
+    "targetType": "stay",
+    "txt": "Amazing place, highly recommended! Great location and clean.",
+    "rating": 5,
+    "createdAt": 1783689102481,
+    "byUser": {
+      "_id": "6a4f7144e8f1e739c4da5b09",
+      "fullname": "Guest Six",
+      "imgUrl": "https://randomuser.me/api/portraits/men/5.jpg"
+    },
+    "targetStay": {
+      "_id": "6a4f7144e8f1e739c4da5c14",
+      "name": "German Colony Classic"
+    }
+  },
+  {
+    "_id": "6a50ef8eae54cf910d7f3704",
+    "targetId": "6a4f7144e8f1e739c4da5c15",
+    "targetType": "stay",
+    "txt": "Amazing place, highly recommended! Great location and clean.",
+    "rating": 1,
+    "createdAt": 1783689102481,
+    "byUser": {
+      "_id": "6a4f7144e8f1e739c4da5b05",
+      "fullname": "Guest Two",
+      "imgUrl": "https://randomuser.me/api/portraits/men/3.jpg"
+    },
+    "targetStay": {
+      "_id": "6a4f7144e8f1e739c4da5c15",
+      "name": "Stella Maris Retreat"
+    }
+  },
+  {
+    "_id": "6a50ef8eae54cf910d7f3705",
+    "targetId": "6a4f7144e8f1e739c4da5c15",
+    "targetType": "stay",
+    "txt": "Amazing place, highly recommended! Great location and clean.",
+    "rating": 2,
+    "createdAt": 1783689102481,
+    "byUser": {
+      "_id": "6a4f7144e8f1e739c4da5b09",
+      "fullname": "Guest Six",
+      "imgUrl": "https://randomuser.me/api/portraits/men/5.jpg"
+    },
+    "targetStay": {
+      "_id": "6a4f7144e8f1e739c4da5c15",
+      "name": "Stella Maris Retreat"
+    }
+  },
+  {
+    "_id": "6a50ef8eae54cf910d7f3706",
+    "targetId": "6a4f7144e8f1e739c4da5c15",
+    "targetType": "stay",
+    "txt": "Amazing place, highly recommended! Great location and clean.",
+    "rating": 5,
+    "createdAt": 1783689102481,
+    "byUser": {
+      "_id": "6a4f7144e8f1e739c4da5b13",
+      "fullname": "Guest Ten",
+      "imgUrl": "https://randomuser.me/api/portraits/men/7.jpg"
+    },
+    "targetStay": {
+      "_id": "6a4f7144e8f1e739c4da5c15",
+      "name": "Stella Maris Retreat"
+    }
+  },
+  {
+    "_id": "6a50ef8eae54cf910d7f3707",
+    "targetId": "6a4f7144e8f1e739c4da5c15",
+    "targetType": "stay",
+    "txt": "Amazing place, highly recommended! Great location and clean.",
+    "rating": 1,
+    "createdAt": 1783689102481,
+    "byUser": {
+      "_id": "6a4f7144e8f1e739c4da5b04",
+      "fullname": "Guest One",
+      "imgUrl": "https://randomuser.me/api/portraits/women/2.jpg"
+    },
+    "targetStay": {
+      "_id": "6a4f7144e8f1e739c4da5c15",
+      "name": "Stella Maris Retreat"
+    }
+  },
+  {
+    "_id": "6a50ef8eae54cf910d7f3708",
+    "targetId": "6a4f7144e8f1e739c4da5c15",
+    "targetType": "stay",
+    "txt": "Amazing place, highly recommended! Great location and clean.",
+    "rating": 4,
+    "createdAt": 1783689102481,
+    "byUser": {
+      "_id": "6a4f7144e8f1e739c4da5b10",
+      "fullname": "Guest Seven",
+      "imgUrl": "https://randomuser.me/api/portraits/women/6.jpg"
+    },
+    "targetStay": {
+      "_id": "6a4f7144e8f1e739c4da5c15",
+      "name": "Stella Maris Retreat"
+    }
+  },
+  {
+    "_id": "6a50ef8eae54cf910d7f3709",
+    "targetId": "6a4f7144e8f1e739c4da5c16",
+    "targetType": "stay",
+    "txt": "Amazing place, highly recommended! Great location and clean.",
+    "rating": 3,
+    "createdAt": 1783689102481,
+    "byUser": {
+      "_id": "6a4f7144e8f1e739c4da5b14",
+      "fullname": "Guest Eleven",
+      "imgUrl": "https://randomuser.me/api/portraits/women/8.jpg"
+    },
+    "targetStay": {
+      "_id": "6a4f7144e8f1e739c4da5c16",
+      "name": "Bat Galim Surf House"
+    }
+  },
+  {
+    "_id": "6a50ef8eae54cf910d7f370a",
+    "targetId": "6a4f7144e8f1e739c4da5c16",
+    "targetType": "stay",
+    "txt": "Amazing place, highly recommended! Great location and clean.",
+    "rating": 5,
+    "createdAt": 1783689102481,
+    "byUser": {
+      "_id": "6a4f7144e8f1e739c4da5b18",
+      "fullname": "Guest Fifteen",
+      "imgUrl": "https://randomuser.me/api/portraits/women/10.jpg"
+    },
+    "targetStay": {
+      "_id": "6a4f7144e8f1e739c4da5c16",
+      "name": "Bat Galim Surf House"
+    }
+  },
+  {
+    "_id": "6a50ef8eae54cf910d7f370b",
+    "targetId": "6a4f7144e8f1e739c4da5c17",
+    "targetType": "stay",
+    "txt": "Amazing place, highly recommended! Great location and clean.",
+    "rating": 3,
+    "createdAt": 1783689102481,
+    "byUser": {
+      "_id": "6a4f7144e8f1e739c4da5b09",
+      "fullname": "Guest Six",
+      "imgUrl": "https://randomuser.me/api/portraits/men/5.jpg"
+    },
+    "targetStay": {
+      "_id": "6a4f7144e8f1e739c4da5c17",
+      "name": "Ahuza Heights View"
+    }
+  },
+  {
+    "_id": "6a50ef8eae54cf910d7f370c",
+    "targetId": "6a4f7144e8f1e739c4da5c17",
+    "targetType": "stay",
+    "txt": "Amazing place, highly recommended! Great location and clean.",
+    "rating": 1,
+    "createdAt": 1783689102481,
+    "byUser": {
+      "_id": "6a4f7144e8f1e739c4da5b06",
+      "fullname": "Guest Three",
+      "imgUrl": "https://randomuser.me/api/portraits/women/4.jpg"
+    },
+    "targetStay": {
+      "_id": "6a4f7144e8f1e739c4da5c17",
+      "name": "Ahuza Heights View"
+    }
+  },
+  {
+    "_id": "6a50ef8eae54cf910d7f370d",
+    "targetId": "6a4f7144e8f1e739c4da5c17",
+    "targetType": "stay",
+    "txt": "Amazing place, highly recommended! Great location and clean.",
+    "rating": 3,
+    "createdAt": 1783689102481,
+    "byUser": {
+      "_id": "6a4f7144e8f1e739c4da5b09",
+      "fullname": "Guest Six",
+      "imgUrl": "https://randomuser.me/api/portraits/men/5.jpg"
+    },
+    "targetStay": {
+      "_id": "6a4f7144e8f1e739c4da5c17",
+      "name": "Ahuza Heights View"
+    }
+  },
+  {
+    "_id": "6a50ef8eae54cf910d7f370e",
+    "targetId": "6a4f7144e8f1e739c4da5c18",
+    "targetType": "stay",
+    "txt": "Amazing place, highly recommended! Great location and clean.",
+    "rating": 3,
+    "createdAt": 1783689102481,
+    "byUser": {
+      "_id": "6a4f7144e8f1e739c4da5b06",
+      "fullname": "Guest Three",
+      "imgUrl": "https://randomuser.me/api/portraits/women/4.jpg"
+    },
+    "targetStay": {
+      "_id": "6a4f7144e8f1e739c4da5c18",
+      "name": "Neve Sha'anan Cozy"
+    }
+  },
+  {
+    "_id": "6a50ef8eae54cf910d7f370f",
+    "targetId": "6a4f7144e8f1e739c4da5c18",
+    "targetType": "stay",
+    "txt": "Amazing place, highly recommended! Great location and clean.",
+    "rating": 4,
+    "createdAt": 1783689102481,
+    "byUser": {
+      "_id": "6a4f7144e8f1e739c4da5b07",
+      "fullname": "Guest Four",
+      "imgUrl": "https://randomuser.me/api/portraits/men/4.jpg"
+    },
+    "targetStay": {
+      "_id": "6a4f7144e8f1e739c4da5c18",
+      "name": "Neve Sha'anan Cozy"
+    }
+  },
+  {
+    "_id": "6a50ef8eae54cf910d7f3710",
+    "targetId": "6a4f7144e8f1e739c4da5c18",
+    "targetType": "stay",
+    "txt": "Amazing place, highly recommended! Great location and clean.",
+    "rating": 1,
+    "createdAt": 1783689102481,
+    "byUser": {
+      "_id": "6a4f7144e8f1e739c4da5b12",
+      "fullname": "Guest Nine",
+      "imgUrl": "https://randomuser.me/api/portraits/women/7.jpg"
+    },
+    "targetStay": {
+      "_id": "6a4f7144e8f1e739c4da5c18",
+      "name": "Neve Sha'anan Cozy"
+    }
+  },
+  {
+    "_id": "6a50ef8eae54cf910d7f3711",
+    "targetId": "6a4f7144e8f1e739c4da5c18",
+    "targetType": "stay",
+    "txt": "Amazing place, highly recommended! Great location and clean.",
+    "rating": 5,
+    "createdAt": 1783689102481,
+    "byUser": {
+      "_id": "6a4f7144e8f1e739c4da5b19",
+      "fullname": "Guest Sixteen",
+      "imgUrl": "https://randomuser.me/api/portraits/men/10.jpg"
+    },
+    "targetStay": {
+      "_id": "6a4f7144e8f1e739c4da5c18",
+      "name": "Neve Sha'anan Cozy"
+    }
+  },
+  {
+    "_id": "6a50ef8eae54cf910d7f3712",
+    "targetId": "6a4f7144e8f1e739c4da5c19",
+    "targetType": "stay",
+    "txt": "Amazing place, highly recommended! Great location and clean.",
+    "rating": 5,
+    "createdAt": 1783689102481,
+    "byUser": {
+      "_id": "6a4f7144e8f1e739c4da5b16",
+      "fullname": "Guest Thirteen",
+      "imgUrl": "https://randomuser.me/api/portraits/women/9.jpg"
+    },
+    "targetStay": {
+      "_id": "6a4f7144e8f1e739c4da5c19",
+      "name": "Haifa Port Loft"
+    }
+  },
+  {
+    "_id": "6a50ef8eae54cf910d7f3713",
+    "targetId": "6a4f7144e8f1e739c4da5c19",
+    "targetType": "stay",
+    "txt": "Amazing place, highly recommended! Great location and clean.",
+    "rating": 4,
+    "createdAt": 1783689102481,
+    "byUser": {
+      "_id": "6a4f7144e8f1e739c4da5b11",
+      "fullname": "Guest Eight",
+      "imgUrl": "https://randomuser.me/api/portraits/men/6.jpg"
+    },
+    "targetStay": {
+      "_id": "6a4f7144e8f1e739c4da5c19",
+      "name": "Haifa Port Loft"
+    }
+  },
+  {
+    "_id": "6a50ef8eae54cf910d7f3714",
+    "targetId": "6a4f7144e8f1e739c4da5c20",
+    "targetType": "stay",
+    "txt": "Amazing place, highly recommended! Great location and clean.",
+    "rating": 3,
+    "createdAt": 1783689102481,
+    "byUser": {
+      "_id": "6a4f7144e8f1e739c4da5b05",
+      "fullname": "Guest Two",
+      "imgUrl": "https://randomuser.me/api/portraits/men/3.jpg"
+    },
+    "targetStay": {
+      "_id": "6a4f7144e8f1e739c4da5c20",
+      "name": "Hadar Central Flat"
+    }
+  },
+  {
+    "_id": "6a50ef8eae54cf910d7f3715",
+    "targetId": "6a4f7144e8f1e739c4da5c20",
+    "targetType": "stay",
+    "txt": "Amazing place, highly recommended! Great location and clean.",
+    "rating": 5,
+    "createdAt": 1783689102481,
+    "byUser": {
+      "_id": "6a4f7144e8f1e739c4da5b10",
+      "fullname": "Guest Seven",
+      "imgUrl": "https://randomuser.me/api/portraits/women/6.jpg"
+    },
+    "targetStay": {
+      "_id": "6a4f7144e8f1e739c4da5c20",
+      "name": "Hadar Central Flat"
+    }
+  },
+  {
+    "_id": "6a50ef8eae54cf910d7f3716",
+    "targetId": "6a4f7144e8f1e739c4da5c20",
+    "targetType": "stay",
+    "txt": "Amazing place, highly recommended! Great location and clean.",
+    "rating": 1,
+    "createdAt": 1783689102481,
+    "byUser": {
+      "_id": "6a4f7144e8f1e739c4da5b19",
+      "fullname": "Guest Sixteen",
+      "imgUrl": "https://randomuser.me/api/portraits/men/10.jpg"
+    },
+    "targetStay": {
+      "_id": "6a4f7144e8f1e739c4da5c20",
+      "name": "Hadar Central Flat"
+    }
+  },
+  {
+    "_id": "6a50ef8eae54cf910d7f3717",
+    "targetId": "6a4f7144e8f1e739c4da5c20",
+    "targetType": "stay",
+    "txt": "Amazing place, highly recommended! Great location and clean.",
+    "rating": 5,
+    "createdAt": 1783689102481,
+    "byUser": {
+      "_id": "6a4f7144e8f1e739c4da5b19",
+      "fullname": "Guest Sixteen",
+      "imgUrl": "https://randomuser.me/api/portraits/men/10.jpg"
+    },
+    "targetStay": {
+      "_id": "6a4f7144e8f1e739c4da5c20",
+      "name": "Hadar Central Flat"
+    }
+  },
+  {
+    "_id": "6a50ef8eae54cf910d7f3718",
+    "targetId": "6a4f7144e8f1e739c4da5c20",
+    "targetType": "stay",
+    "txt": "Amazing place, highly recommended! Great location and clean.",
+    "rating": 5,
+    "createdAt": 1783689102481,
+    "byUser": {
+      "_id": "6a4f7144e8f1e739c4da5b06",
+      "fullname": "Guest Three",
+      "imgUrl": "https://randomuser.me/api/portraits/women/4.jpg"
+    },
+    "targetStay": {
+      "_id": "6a4f7144e8f1e739c4da5c20",
+      "name": "Hadar Central Flat"
+    }
+  },
+  {
+    "_id": "6a50ef8eae54cf910d7f3719",
+    "targetId": "6a4f7144e8f1e739c4da5c21",
+    "targetType": "stay",
+    "txt": "Amazing place, highly recommended! Great location and clean.",
+    "rating": 5,
+    "createdAt": 1783689102481,
+    "byUser": {
+      "_id": "6a4f7144e8f1e739c4da5b07",
+      "fullname": "Guest Four",
+      "imgUrl": "https://randomuser.me/api/portraits/men/4.jpg"
+    },
+    "targetStay": {
+      "_id": "6a4f7144e8f1e739c4da5c21",
+      "name": "Eilat Beachfront Villa"
+    }
+  },
+  {
+    "_id": "6a50ef8eae54cf910d7f371a",
+    "targetId": "6a4f7144e8f1e739c4da5c21",
+    "targetType": "stay",
+    "txt": "Amazing place, highly recommended! Great location and clean.",
+    "rating": 5,
+    "createdAt": 1783689102481,
+    "byUser": {
+      "_id": "6a4f7144e8f1e739c4da5b15",
+      "fullname": "Guest Twelve",
+      "imgUrl": "https://randomuser.me/api/portraits/men/8.jpg"
+    },
+    "targetStay": {
+      "_id": "6a4f7144e8f1e739c4da5c21",
+      "name": "Eilat Beachfront Villa"
+    }
+  },
+  {
+    "_id": "6a50ef8eae54cf910d7f371b",
+    "targetId": "6a4f7144e8f1e739c4da5c21",
+    "targetType": "stay",
+    "txt": "Amazing place, highly recommended! Great location and clean.",
+    "rating": 5,
+    "createdAt": 1783689102481,
+    "byUser": {
+      "_id": "6a4f7144e8f1e739c4da5b18",
+      "fullname": "Guest Fifteen",
+      "imgUrl": "https://randomuser.me/api/portraits/women/10.jpg"
+    },
+    "targetStay": {
+      "_id": "6a4f7144e8f1e739c4da5c21",
+      "name": "Eilat Beachfront Villa"
+    }
+  },
+  {
+    "_id": "6a50ef8eae54cf910d7f371c",
+    "targetId": "6a4f7144e8f1e739c4da5c21",
+    "targetType": "stay",
+    "txt": "Amazing place, highly recommended! Great location and clean.",
+    "rating": 4,
+    "createdAt": 1783689102481,
+    "byUser": {
+      "_id": "6a4f7144e8f1e739c4da5b11",
+      "fullname": "Guest Eight",
+      "imgUrl": "https://randomuser.me/api/portraits/men/6.jpg"
+    },
+    "targetStay": {
+      "_id": "6a4f7144e8f1e739c4da5c21",
+      "name": "Eilat Beachfront Villa"
+    }
+  },
+  {
+    "_id": "6a50ef8eae54cf910d7f371d",
+    "targetId": "6a4f7144e8f1e739c4da5c21",
+    "targetType": "stay",
+    "txt": "Amazing place, highly recommended! Great location and clean.",
+    "rating": 3,
+    "createdAt": 1783689102481,
+    "byUser": {
+      "_id": "6a4f7144e8f1e739c4da5b20",
+      "fullname": "Guest Seventeen",
+      "imgUrl": "https://randomuser.me/api/portraits/women/11.jpg"
+    },
+    "targetStay": {
+      "_id": "6a4f7144e8f1e739c4da5c21",
+      "name": "Eilat Beachfront Villa"
+    }
+  },
+  {
+    "_id": "6a50ef8eae54cf910d7f371e",
+    "targetId": "6a4f7144e8f1e739c4da5c22",
+    "targetType": "stay",
+    "txt": "Amazing place, highly recommended! Great location and clean.",
+    "rating": 3,
+    "createdAt": 1783689102481,
+    "byUser": {
+      "_id": "6a4f7144e8f1e739c4da5b18",
+      "fullname": "Guest Fifteen",
+      "imgUrl": "https://randomuser.me/api/portraits/women/10.jpg"
+    },
+    "targetStay": {
+      "_id": "6a4f7144e8f1e739c4da5c22",
+      "name": "Red Sea View Suite"
+    }
+  },
+  {
+    "_id": "6a50ef8eae54cf910d7f371f",
+    "targetId": "6a4f7144e8f1e739c4da5c23",
+    "targetType": "stay",
+    "txt": "Amazing place, highly recommended! Great location and clean.",
+    "rating": 2,
+    "createdAt": 1783689102481,
+    "byUser": {
+      "_id": "6a4f7144e8f1e739c4da5b18",
+      "fullname": "Guest Fifteen",
+      "imgUrl": "https://randomuser.me/api/portraits/women/10.jpg"
+    },
+    "targetStay": {
+      "_id": "6a4f7144e8f1e739c4da5c23",
+      "name": "Coral Beach Escape"
+    }
+  },
+  {
+    "_id": "6a50ef8eae54cf910d7f3720",
+    "targetId": "6a4f7144e8f1e739c4da5c23",
+    "targetType": "stay",
+    "txt": "Amazing place, highly recommended! Great location and clean.",
+    "rating": 2,
+    "createdAt": 1783689102481,
+    "byUser": {
+      "_id": "6a4f7144e8f1e739c4da5b20",
+      "fullname": "Guest Seventeen",
+      "imgUrl": "https://randomuser.me/api/portraits/women/11.jpg"
+    },
+    "targetStay": {
+      "_id": "6a4f7144e8f1e739c4da5c23",
+      "name": "Coral Beach Escape"
+    }
+  },
+  {
+    "_id": "6a50ef8eae54cf910d7f3721",
+    "targetId": "6a4f7144e8f1e739c4da5c23",
+    "targetType": "stay",
+    "txt": "Amazing place, highly recommended! Great location and clean.",
+    "rating": 1,
+    "createdAt": 1783689102481,
+    "byUser": {
+      "_id": "6a4f7144e8f1e739c4da5b14",
+      "fullname": "Guest Eleven",
+      "imgUrl": "https://randomuser.me/api/portraits/women/8.jpg"
+    },
+    "targetStay": {
+      "_id": "6a4f7144e8f1e739c4da5c23",
+      "name": "Coral Beach Escape"
+    }
+  },
+  {
+    "_id": "6a50ef8eae54cf910d7f3722",
+    "targetId": "6a4f7144e8f1e739c4da5c23",
+    "targetType": "stay",
+    "txt": "Amazing place, highly recommended! Great location and clean.",
+    "rating": 4,
+    "createdAt": 1783689102481,
+    "byUser": {
+      "_id": "6a4f7144e8f1e739c4da5b15",
+      "fullname": "Guest Twelve",
+      "imgUrl": "https://randomuser.me/api/portraits/men/8.jpg"
+    },
+    "targetStay": {
+      "_id": "6a4f7144e8f1e739c4da5c23",
+      "name": "Coral Beach Escape"
+    }
+  },
+  {
+    "_id": "6a50ef8eae54cf910d7f3723",
+    "targetId": "6a4f7144e8f1e739c4da5c23",
+    "targetType": "stay",
+    "txt": "Amazing place, highly recommended! Great location and clean.",
+    "rating": 2,
+    "createdAt": 1783689102481,
+    "byUser": {
+      "_id": "6a4f7144e8f1e739c4da5b08",
+      "fullname": "Guest Five",
+      "imgUrl": "https://randomuser.me/api/portraits/women/5.jpg"
+    },
+    "targetStay": {
+      "_id": "6a4f7144e8f1e739c4da5c23",
+      "name": "Coral Beach Escape"
+    }
+  },
+  {
+    "_id": "6a50ef8eae54cf910d7f3724",
+    "targetId": "6a4f7144e8f1e739c4da5c24",
+    "targetType": "stay",
+    "txt": "Amazing place, highly recommended! Great location and clean.",
+    "rating": 1,
+    "createdAt": 1783689102481,
+    "byUser": {
+      "_id": "6a4f7144e8f1e739c4da5b20",
+      "fullname": "Guest Seventeen",
+      "imgUrl": "https://randomuser.me/api/portraits/women/11.jpg"
+    },
+    "targetStay": {
+      "_id": "6a4f7144e8f1e739c4da5c24",
+      "name": "Desert Oasis Apartment"
+    }
+  },
+  {
+    "_id": "6a50ef8eae54cf910d7f3725",
+    "targetId": "6a4f7144e8f1e739c4da5c24",
+    "targetType": "stay",
+    "txt": "Amazing place, highly recommended! Great location and clean.",
+    "rating": 2,
+    "createdAt": 1783689102481,
+    "byUser": {
+      "_id": "6a4f7144e8f1e739c4da5b09",
+      "fullname": "Guest Six",
+      "imgUrl": "https://randomuser.me/api/portraits/men/5.jpg"
+    },
+    "targetStay": {
+      "_id": "6a4f7144e8f1e739c4da5c24",
+      "name": "Desert Oasis Apartment"
+    }
+  },
+  {
+    "_id": "6a50ef8eae54cf910d7f3726",
+    "targetId": "6a4f7144e8f1e739c4da5c25",
+    "targetType": "stay",
+    "txt": "Amazing place, highly recommended! Great location and clean.",
+    "rating": 3,
+    "createdAt": 1783689102481,
+    "byUser": {
+      "_id": "6a4f7144e8f1e739c4da5b14",
+      "fullname": "Guest Eleven",
+      "imgUrl": "https://randomuser.me/api/portraits/women/8.jpg"
+    },
+    "targetStay": {
+      "_id": "6a4f7144e8f1e739c4da5c25",
+      "name": "Eilat Mountain View"
+    }
+  },
+  {
+    "_id": "6a50ef8eae54cf910d7f3727",
+    "targetId": "6a4f7144e8f1e739c4da5c25",
+    "targetType": "stay",
+    "txt": "Amazing place, highly recommended! Great location and clean.",
+    "rating": 4,
+    "createdAt": 1783689102481,
+    "byUser": {
+      "_id": "6a4f7144e8f1e739c4da5b09",
+      "fullname": "Guest Six",
+      "imgUrl": "https://randomuser.me/api/portraits/men/5.jpg"
+    },
+    "targetStay": {
+      "_id": "6a4f7144e8f1e739c4da5c25",
+      "name": "Eilat Mountain View"
+    }
+  },
+  {
+    "_id": "6a50ef8eae54cf910d7f3728",
+    "targetId": "6a4f7144e8f1e739c4da5c26",
+    "targetType": "stay",
+    "txt": "Amazing place, highly recommended! Great location and clean.",
+    "rating": 5,
+    "createdAt": 1783689102481,
+    "byUser": {
+      "_id": "6a4f7144e8f1e739c4da5b07",
+      "fullname": "Guest Four",
+      "imgUrl": "https://randomuser.me/api/portraits/men/4.jpg"
+    },
+    "targetStay": {
+      "_id": "6a4f7144e8f1e739c4da5c26",
+      "name": "Marina Walk Studio"
+    }
+  },
+  {
+    "_id": "6a50ef8eae54cf910d7f3729",
+    "targetId": "6a4f7144e8f1e739c4da5c26",
+    "targetType": "stay",
+    "txt": "Amazing place, highly recommended! Great location and clean.",
+    "rating": 4,
+    "createdAt": 1783689102481,
+    "byUser": {
+      "_id": "6a4f7144e8f1e739c4da5b15",
+      "fullname": "Guest Twelve",
+      "imgUrl": "https://randomuser.me/api/portraits/men/8.jpg"
+    },
+    "targetStay": {
+      "_id": "6a4f7144e8f1e739c4da5c26",
+      "name": "Marina Walk Studio"
+    }
+  },
+  {
+    "_id": "6a50ef8eae54cf910d7f372a",
+    "targetId": "6a4f7144e8f1e739c4da5c27",
+    "targetType": "stay",
+    "txt": "Amazing place, highly recommended! Great location and clean.",
+    "rating": 2,
+    "createdAt": 1783689102481,
+    "byUser": {
+      "_id": "6a4f7144e8f1e739c4da5b13",
+      "fullname": "Guest Ten",
+      "imgUrl": "https://randomuser.me/api/portraits/men/7.jpg"
+    },
+    "targetStay": {
+      "_id": "6a4f7144e8f1e739c4da5c27",
+      "name": "Sunset Point Flat"
+    }
+  },
+  {
+    "_id": "6a50ef8eae54cf910d7f372b",
+    "targetId": "6a4f7144e8f1e739c4da5c27",
+    "targetType": "stay",
+    "txt": "Amazing place, highly recommended! Great location and clean.",
+    "rating": 3,
+    "createdAt": 1783689102481,
+    "byUser": {
+      "_id": "6a4f7144e8f1e739c4da5b19",
+      "fullname": "Guest Sixteen",
+      "imgUrl": "https://randomuser.me/api/portraits/men/10.jpg"
+    },
+    "targetStay": {
+      "_id": "6a4f7144e8f1e739c4da5c27",
+      "name": "Sunset Point Flat"
+    }
+  },
+  {
+    "_id": "6a50ef8eae54cf910d7f372c",
+    "targetId": "6a4f7144e8f1e739c4da5c27",
+    "targetType": "stay",
+    "txt": "Amazing place, highly recommended! Great location and clean.",
+    "rating": 5,
+    "createdAt": 1783689102481,
+    "byUser": {
+      "_id": "6a4f7144e8f1e739c4da5b09",
+      "fullname": "Guest Six",
+      "imgUrl": "https://randomuser.me/api/portraits/men/5.jpg"
+    },
+    "targetStay": {
+      "_id": "6a4f7144e8f1e739c4da5c27",
+      "name": "Sunset Point Flat"
+    }
+  },
+  {
+    "_id": "6a50ef8eae54cf910d7f372d",
+    "targetId": "6a4f7144e8f1e739c4da5c28",
+    "targetType": "stay",
+    "txt": "Amazing place, highly recommended! Great location and clean.",
+    "rating": 1,
+    "createdAt": 1783689102481,
+    "byUser": {
+      "_id": "6a4f7144e8f1e739c4da5b08",
+      "fullname": "Guest Five",
+      "imgUrl": "https://randomuser.me/api/portraits/women/5.jpg"
+    },
+    "targetStay": {
+      "_id": "6a4f7144e8f1e739c4da5c28",
+      "name": "Dolphin Reef Haven"
+    }
+  },
+  {
+    "_id": "6a50ef8eae54cf910d7f372e",
+    "targetId": "6a4f7144e8f1e739c4da5c28",
+    "targetType": "stay",
+    "txt": "Amazing place, highly recommended! Great location and clean.",
+    "rating": 2,
+    "createdAt": 1783689102481,
+    "byUser": {
+      "_id": "6a4f7144e8f1e739c4da5b19",
+      "fullname": "Guest Sixteen",
+      "imgUrl": "https://randomuser.me/api/portraits/men/10.jpg"
+    },
+    "targetStay": {
+      "_id": "6a4f7144e8f1e739c4da5c28",
+      "name": "Dolphin Reef Haven"
+    }
+  },
+  {
+    "_id": "6a50ef8eae54cf910d7f372f",
+    "targetId": "6a4f7144e8f1e739c4da5c29",
+    "targetType": "stay",
+    "txt": "Amazing place, highly recommended! Great location and clean.",
+    "rating": 1,
+    "createdAt": 1783689102481,
+    "byUser": {
+      "_id": "6a4f7144e8f1e739c4da5b04",
+      "fullname": "Guest One",
+      "imgUrl": "https://randomuser.me/api/portraits/women/2.jpg"
+    },
+    "targetStay": {
+      "_id": "6a4f7144e8f1e739c4da5c29",
+      "name": "Old City Eilat Room"
+    }
+  },
+  {
+    "_id": "6a50ef8eae54cf910d7f3730",
+    "targetId": "6a4f7144e8f1e739c4da5c29",
+    "targetType": "stay",
+    "txt": "Amazing place, highly recommended! Great location and clean.",
+    "rating": 4,
+    "createdAt": 1783689102481,
+    "byUser": {
+      "_id": "6a4f7144e8f1e739c4da5b18",
+      "fullname": "Guest Fifteen",
+      "imgUrl": "https://randomuser.me/api/portraits/women/10.jpg"
+    },
+    "targetStay": {
+      "_id": "6a4f7144e8f1e739c4da5c29",
+      "name": "Old City Eilat Room"
+    }
+  },
+  {
+    "_id": "6a50ef8eae54cf910d7f3731",
+    "targetId": "6a4f7144e8f1e739c4da5c29",
+    "targetType": "stay",
+    "txt": "Amazing place, highly recommended! Great location and clean.",
+    "rating": 4,
+    "createdAt": 1783689102481,
+    "byUser": {
+      "_id": "6a4f7144e8f1e739c4da5b08",
+      "fullname": "Guest Five",
+      "imgUrl": "https://randomuser.me/api/portraits/women/5.jpg"
+    },
+    "targetStay": {
+      "_id": "6a4f7144e8f1e739c4da5c29",
+      "name": "Old City Eilat Room"
+    }
+  },
+  {
+    "_id": "6a50ef8eae54cf910d7f3732",
+    "targetId": "6a4f7144e8f1e739c4da5c29",
+    "targetType": "stay",
+    "txt": "Amazing place, highly recommended! Great location and clean.",
+    "rating": 2,
+    "createdAt": 1783689102481,
+    "byUser": {
+      "_id": "6a4f7144e8f1e739c4da5b07",
+      "fullname": "Guest Four",
+      "imgUrl": "https://randomuser.me/api/portraits/men/4.jpg"
+    },
+    "targetStay": {
+      "_id": "6a4f7144e8f1e739c4da5c29",
+      "name": "Old City Eilat Room"
+    }
+  },
+  {
+    "_id": "6a50ef8eae54cf910d7f3733",
+    "targetId": "6a4f7144e8f1e739c4da5c29",
+    "targetType": "stay",
+    "txt": "Amazing place, highly recommended! Great location and clean.",
+    "rating": 3,
+    "createdAt": 1783689102481,
+    "byUser": {
+      "_id": "6a4f7144e8f1e739c4da5b18",
+      "fullname": "Guest Fifteen",
+      "imgUrl": "https://randomuser.me/api/portraits/women/10.jpg"
+    },
+    "targetStay": {
+      "_id": "6a4f7144e8f1e739c4da5c29",
+      "name": "Old City Eilat Room"
+    }
+  },
+  {
+    "_id": "6a50ef8eae54cf910d7f3734",
+    "targetId": "6a4f7144e8f1e739c4da5c30",
+    "targetType": "stay",
+    "txt": "Amazing place, highly recommended! Great location and clean.",
+    "rating": 1,
+    "createdAt": 1783689102481,
+    "byUser": {
+      "_id": "6a4f7144e8f1e739c4da5b17",
+      "fullname": "Guest Fourteen",
+      "imgUrl": "https://randomuser.me/api/portraits/men/9.jpg"
+    },
+    "targetStay": {
+      "_id": "6a4f7144e8f1e739c4da5c30",
+      "name": "Red Sea Modern Loft"
+    }
+  },
+  {
+    "_id": "6a50ef8eae54cf910d7f3735",
+    "targetId": "6a4f7144e8f1e739c4da5c30",
+    "targetType": "stay",
+    "txt": "Amazing place, highly recommended! Great location and clean.",
+    "rating": 5,
+    "createdAt": 1783689102481,
+    "byUser": {
+      "_id": "6a4f7144e8f1e739c4da5b12",
+      "fullname": "Guest Nine",
+      "imgUrl": "https://randomuser.me/api/portraits/women/7.jpg"
+    },
+    "targetStay": {
+      "_id": "6a4f7144e8f1e739c4da5c30",
+      "name": "Red Sea Modern Loft"
+    }
+  },
+  {
+    "_id": "6a50ef8eae54cf910d7f3736",
+    "targetId": "6a4f7144e8f1e739c4da5c30",
+    "targetType": "stay",
+    "txt": "Amazing place, highly recommended! Great location and clean.",
+    "rating": 2,
+    "createdAt": 1783689102481,
+    "byUser": {
+      "_id": "6a4f7144e8f1e739c4da5b11",
+      "fullname": "Guest Eight",
+      "imgUrl": "https://randomuser.me/api/portraits/men/6.jpg"
+    },
+    "targetStay": {
+      "_id": "6a4f7144e8f1e739c4da5c30",
+      "name": "Red Sea Modern Loft"
+    }
+  },
+  {
+    "_id": "6a50ef8eae54cf910d7f3737",
+    "targetId": "6a4f7144e8f1e739c4da5c30",
+    "targetType": "stay",
+    "txt": "Amazing place, highly recommended! Great location and clean.",
+    "rating": 5,
+    "createdAt": 1783689102481,
+    "byUser": {
+      "_id": "6a4f7144e8f1e739c4da5b20",
+      "fullname": "Guest Seventeen",
+      "imgUrl": "https://randomuser.me/api/portraits/women/11.jpg"
+    },
+    "targetStay": {
+      "_id": "6a4f7144e8f1e739c4da5c30",
+      "name": "Red Sea Modern Loft"
+    }
+  },
+  {
+    "_id": "6a50ef8eae54cf910d7f3738",
+    "targetId": "6a4f7144e8f1e739c4da5c30",
+    "targetType": "stay",
+    "txt": "Amazing place, highly recommended! Great location and clean.",
+    "rating": 2,
+    "createdAt": 1783689102481,
+    "byUser": {
+      "_id": "6a4f7144e8f1e739c4da5b20",
+      "fullname": "Guest Seventeen",
+      "imgUrl": "https://randomuser.me/api/portraits/women/11.jpg"
+    },
+    "targetStay": {
+      "_id": "6a4f7144e8f1e739c4da5c30",
+      "name": "Red Sea Modern Loft"
+    }
+  }
+]

@@ -5,82 +5,115 @@ import { logger } from '../../services/logger.service.js'
 import { dbService } from '../../services/db.service.js'
 
 export const reviewService = { query, remove, add }
-
-async function query(filterBy = {}) {
+export async function query(filterBy = {}) {
     try {
-        const criteria = _buildCriteria(filterBy)
         const collection = await dbService.getCollection('review')
         
-       var reviews = await collection.aggregate([
-    {
-        $match: criteria,
-    },
-    {
-        $lookup: {
-            localField: 'byUserId',
-            from: 'user',
-            foreignField: '_id',
-            as: 'byUser',
-        },
-    },
-    {
-        $unwind: {
-            path: '$byUser',
-            preserveNullAndEmptyArrays: true
+        const matchCriteria = {}
+        if (filterBy.targetId) {
+            matchCriteria.targetId = new ObjectId(filterBy.targetId)
         }
-    },
-    {
-        $lookup: {
-            from: 'stay',
-            localField: 'targetId',
-            foreignField: '_id',
-            as: 'targetStay'
-        }
-    },
-    {
-        $unwind: {
-            path: '$targetStay',
-            preserveNullAndEmptyArrays: true
-        }
-    },
-    {
-        $lookup: {
-            from: 'user',
-            localField: 'targetId',
-            foreignField: '_id',
-            as: 'targetUser'
-        }
-    },
-    {
-        $unwind: {
-            path: '$targetUser',
-            preserveNullAndEmptyArrays: true
-        }
-    },
-    { 
-        $project: {
-            'txt': true, 
-            'rating': true,
-            'targetType': true,
-            'targetId': true,
-            'createdAt': true,
-            'byUser._id': true, 
-            'byUser.fullname': true, 
-            'byUser.imgUrl': true,
-            'targetStay._id': true,
-            'targetStay.name': true,
-            'targetUser._id': true,
-            'targetUser.fullname': true,
-            'targetUser.imgUrl': true
-        } 
-    }
-]).toArray()
+        
+        console.log('DEBUG: Backend Strict Criteria:', matchCriteria)
+        
+        const pipeline = [
+            { $match: matchCriteria },
+            { $lookup: { from: 'user', localField: 'byUserId', foreignField: '_id', as: 'byUser' } },
+            { $unwind: { path: '$byUser', preserveNullAndEmptyArrays: true } },
+            { $lookup: { from: 'stay', localField: 'targetId', foreignField: '_id', as: 'targetStay' } },
+            { $unwind: { path: '$targetStay', preserveNullAndEmptyArrays: true } },
+            {
+                $project: {
+                    'txt': true, 'rating': true, 'targetId': true,
+                    'byUser.fullname': true, 'byUser.imgUrl': true,
+                    'targetStay.name': true
+                }
+            }
+        ]
+
+        const reviews = await collection.aggregate(pipeline).toArray()
+        console.log('DEBUG: Backend found this many reviews:', reviews.length)
         return reviews
     } catch (err) {
         logger.error('cannot get reviews', err)
         throw err
     }
 }
+// async function query(filterBy = {}) {
+//     try {
+//         const criteria = _buildCriteria(filterBy)
+//         const collection = await dbService.getCollection('review')
+        
+//        var reviews = await collection.aggregate([
+//     {
+//         $match: criteria,
+//     },
+//     {
+//         $lookup: {
+//             localField: 'byUserId',
+//             from: 'user',
+//             foreignField: '_id',
+//             as: 'byUser',
+//         },
+//     },
+//     {
+//         $unwind: {
+//             path: '$byUser',
+//             preserveNullAndEmptyArrays: true
+//         }
+//     },
+//     {
+//         $lookup: {
+//             from: 'stay',
+//             localField: 'targetId',
+//             foreignField: '_id',
+//             as: 'targetStay'
+//         }
+//     },
+//     {
+//         $unwind: {
+//             path: '$targetStay',
+//             preserveNullAndEmptyArrays: true
+//         }
+//     },
+//     {
+//         $lookup: {
+//             from: 'user',
+//             localField: 'targetId',
+//             foreignField: '_id',
+//             as: 'targetUser'
+//         }
+//     },
+//     {
+//         $unwind: {
+//             path: '$targetUser',
+//             preserveNullAndEmptyArrays: true
+//         }
+//     },
+//     { 
+//         $project: {
+//             'txt': true, 
+//             'rating': true,
+//             'targetType': true,
+//             'targetId': true,
+//             'createdAt': true,
+//             'byUser._id': true, 
+//             'byUser.fullname': true, 
+//             'byUser.imgUrl': true,
+//             'targetStay._id': true,
+//             'targetStay.name': true,
+//             'targetUser._id': true,
+//             'targetUser.fullname': true,
+//             'targetUser.imgUrl': true
+//         } 
+//     }
+// ]).toArray()
+//         return reviews
+//     } catch (err) {
+//         logger.error('cannot get reviews', err)
+//         throw err
+//     }
+// }
 
 async function remove(reviewId) {
     try {

@@ -95,7 +95,7 @@ async function update(user) {
         throw err
     }
 }
-_seedUsers()
+// _seedUsers()
 
 async function _seedUsers() {
     try {

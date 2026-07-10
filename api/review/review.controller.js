@@ -12,13 +12,26 @@ import { reviewService } from './review.service.js'
 // 		logger.error('Cannot get reviews', err)
 // 		res.status(400).send({ err: 'Failed to get reviews' })
 // 	}
+// export async function getReviews(req, res) {
+//     try {
+//         console.log('REAL BACKEND QUERY RECEIVED:', req.query) // <-- ADD THIS LOG
+//         const reviews = await reviewService.query(req.query)
+//         res.json(reviews)
+//     } catch (err) {
+//         res.status(500).send({ err: 'Failed to get reviews' })
+//     }
+// }
+// Backend: review.controller.js
 export async function getReviews(req, res) {
     try {
-        console.log('REAL BACKEND QUERY RECEIVED:', req.query) // <-- ADD THIS LOG
-        const reviews = await reviewService.query(req.query)
-        res.json(reviews)
+        const filterBy = {
+            targetId: req.query.targetId,
+           
+        }
+        const reviews = await reviewService.query(filterBy)
+        res.send(reviews)
     } catch (err) {
-        res.status(500).send({ err: 'Failed to get reviews' })
+        res.status(400).send({ err: 'Failed to get reviews' })
     }
 }
 // }

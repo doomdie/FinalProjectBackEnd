@@ -68,20 +68,39 @@ async function save(stay) {
     }
 }
 
-async function getById(stayId) {
+// async function getById(stayId) {
+//     try {
+//         if (!ObjectId.isValid(stayId)) {
+//             console.error(`❌ Invalid MongoDB ObjectId format received: "${stayId}"`)
+//             return null
+//         }
+
+//         const collection = await dbService.getCollection('stay')
+//         const stay = await collection.findOne({ _id: new ObjectId(stayId) })
+
+//         if (!stay) console.log(`⚠️ Stay with ID ${stayId} was not found in MongoDB.`)
+//         return stay
+//     } catch (err) {
+//         console.error('❌ Error inside stay.service.js getById:', err)
+//         throw err
+//     }
+// }
+export async function getById(stayId) {
     try {
-        if (!ObjectId.isValid(stayId)) {
-            console.error(`❌ Invalid MongoDB ObjectId format received: "${stayId}"`)
-            return null
-        }
-
         const collection = await dbService.getCollection('stay')
+        
+        // Log exactly what we are searching for
+        console.log('DEBUG: Backend searching for stayId:', stayId)
+        
         const stay = await collection.findOne({ _id: new ObjectId(stayId) })
-
-        if (!stay) console.log(`⚠️ Stay with ID ${stayId} was not found in MongoDB.`)
+        
+        if (!stay) {
+            console.error(`ERROR: Stay ${stayId} NOT FOUND in MongoDB`)
+            throw new Error(`Stay ${stayId} not found`)
+        }
+        
         return stay
     } catch (err) {
-        console.error('❌ Error inside stay.service.js getById:', err)
         throw err
     }
 }

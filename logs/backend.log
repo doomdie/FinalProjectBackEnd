@@ -2658,3 +2658,229 @@
 10.7.2026, 10:28:41 - DEBUG - auth.service - login with username: Playstation2
 10.7.2026, 10:28:41 - INFO - User signup: | {"_id":"6a509f29717d8531321687ac","username":"Playstation2","fullname":"Yair Krakowskin","imgUrl":"https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png","isAdmin":false,"score":100}
 10.7.2026, 10:28:41 - INFO - Setting socket.userId = 6a509f29717d8531321687ac for socket [id: V_SmHihlgjVSWHjfAAAB]
+10.7.2026, 17:06:38 - INFO - Server is running on port: 3030
+10.7.2026, 17:06:38 - INFO - New connected socket [id: nVKN_BsH7YJ61jjTAAAB]
+10.7.2026, 17:06:41 - INFO - New connected socket [id: tC2QbbPgfPqIV_zXAAAD]
+10.7.2026, 17:06:42 - INFO - Setting socket.userId = 6a509f29717d8531321687ac for socket [id: tC2QbbPgfPqIV_zXAAAD]
+10.7.2026, 17:06:42 - INFO - /api/review | GET |  | {} | 6a509f29717d8531321687ac
+10.7.2026, 17:06:42 - INFO - Setting socket.userId = 6a509f29717d8531321687ac for socket [id: tC2QbbPgfPqIV_zXAAAD]
+10.7.2026, 17:06:52 - INFO - /api/review | GET |  | {} | 6a509f29717d8531321687ac
+10.7.2026, 17:06:52 - INFO - Socket disconnected [id: undefined]
+10.7.2026, 17:06:52 - INFO - New connected socket [id: oT8b4ifUxAJ9qvh4AAAF]
+10.7.2026, 17:06:52 - INFO - Setting socket.userId = 6a509f29717d8531321687ac for socket [id: oT8b4ifUxAJ9qvh4AAAF]
+10.7.2026, 17:06:53 - INFO - /api/review | GET |  | {} | 6a509f29717d8531321687ac
+10.7.2026, 17:06:53 - INFO - Setting socket.userId = 6a509f29717d8531321687ac for socket [id: oT8b4ifUxAJ9qvh4AAAF]
+10.7.2026, 17:07:20 - INFO - Server is running on port: 3030
+10.7.2026, 17:07:21 - INFO - New connected socket [id: Nz7e0j4rB2huCHHIAAAB]
+10.7.2026, 17:07:21 - INFO - Socket disconnected [id: undefined]
+10.7.2026, 17:07:21 - INFO - New connected socket [id: tC_tVoCsW1e7fexEAAAD]
+10.7.2026, 17:07:21 - INFO - Setting socket.userId = 6a509f29717d8531321687ac for socket [id: tC_tVoCsW1e7fexEAAAD]
+10.7.2026, 17:07:21 - INFO - New connected socket [id: gOqIfEeheYDTYOmBAAAF]
+10.7.2026, 17:07:21 - INFO - /api/review | GET |  | {} | 6a509f29717d8531321687ac
+10.7.2026, 17:07:21 - INFO - Setting socket.userId = 6a509f29717d8531321687ac for socket [id: tC_tVoCsW1e7fexEAAAD]
+10.7.2026, 17:10:40 - INFO - Server is running on port: 3030
+10.7.2026, 17:10:40 - INFO - New connected socket [id: knkmVXYzvUNWEZ30AAAB]
+10.7.2026, 17:10:41 - INFO - Server is running on port: 3030
+10.7.2026, 17:10:41 - INFO - New connected socket [id: FGFbblZsYcVBEEBBAAAB]
+10.7.2026, 17:10:41 - INFO - New connected socket [id: 2iL8DvxibWnpiJF3AAAD]
+10.7.2026, 17:10:53 - INFO - Server is running on port: 3030
+10.7.2026, 17:10:54 - INFO - New connected socket [id: kM-doHoBoJ6CSJLFAAAB]
+10.7.2026, 17:10:54 - INFO - New connected socket [id: pS0VE3sMpu2D1BUSAAAD]
+10.7.2026, 17:10:54 - INFO - /api/review | GET |  | {} | 6a509f29717d8531321687ac
+10.7.2026, 17:10:54 - INFO - Setting socket.userId = 6a509f29717d8531321687ac for socket [id: kM-doHoBoJ6CSJLFAAAB]
+10.7.2026, 17:11:12 - INFO - /api/review | GET |  | {} | 6a509f29717d8531321687ac
+10.7.2026, 17:16:27 - INFO - Server is running on port: 3030
+10.7.2026, 17:16:28 - INFO - New connected socket [id: D61FCALtMkwNbmgjAAAB]
+10.7.2026, 17:16:28 - INFO - Setting socket.userId = 6a509f29717d8531321687ac for socket [id: D61FCALtMkwNbmgjAAAB]
+10.7.2026, 17:16:29 - INFO - /api/review | GET |  | {} | 6a509f29717d8531321687ac
+10.7.2026, 17:16:31 - INFO - New connected socket [id: H8_jOP-JDJR1LWUKAAAD]
+10.7.2026, 17:18:58 - INFO - Socket disconnected [id: undefined]
+10.7.2026, 17:18:58 - INFO - New connected socket [id: hOWjJ0NskCmVMpMZAAAF]
+10.7.2026, 17:18:58 - INFO - Setting socket.userId = 6a509f29717d8531321687ac for socket [id: hOWjJ0NskCmVMpMZAAAF]
+10.7.2026, 17:18:58 - INFO - Setting socket.userId = 6a509f29717d8531321687ac for socket [id: hOWjJ0NskCmVMpMZAAAF]
+10.7.2026, 17:19:53 - INFO - Server is running on port: 3030
+10.7.2026, 17:19:53 - INFO - New connected socket [id: CqpanY7_BLhO7aTyAAAB]
+10.7.2026, 17:19:54 - INFO - New connected socket [id: AQH2nzCot61cgdc8AAAD]
+10.7.2026, 17:20:21 - INFO - Server is running on port: 3030
+10.7.2026, 17:20:22 - INFO - New connected socket [id: XdeeTLuncQF-qxQkAAAB]
+10.7.2026, 17:20:22 - INFO - New connected socket [id: pgeb_9w5dMikZNosAAAD]
+10.7.2026, 17:20:22 - INFO - Socket disconnected [id: undefined]
+10.7.2026, 17:20:22 - INFO - New connected socket [id: fkNyX6eFFDUDvvj-AAAF]
+10.7.2026, 17:20:22 - INFO - Setting socket.userId = 6a509f29717d8531321687ac for socket [id: fkNyX6eFFDUDvvj-AAAF]
+10.7.2026, 17:20:23 - INFO - Setting socket.userId = 6a509f29717d8531321687ac for socket [id: fkNyX6eFFDUDvvj-AAAF]
+10.7.2026, 17:20:31 - INFO - /api/review | GET |  | {} | 6a509f29717d8531321687ac
+10.7.2026, 17:20:35 - INFO - /api/review | GET |  | {} | 6a509f29717d8531321687ac
+10.7.2026, 17:20:40 - INFO - Socket disconnected [id: undefined]
+10.7.2026, 17:20:41 - INFO - New connected socket [id: CVRz2BDRiCKTjxUsAAAH]
+10.7.2026, 17:20:41 - INFO - Setting socket.userId = 6a509f29717d8531321687ac for socket [id: CVRz2BDRiCKTjxUsAAAH]
+10.7.2026, 17:20:41 - INFO - Setting socket.userId = 6a509f29717d8531321687ac for socket [id: CVRz2BDRiCKTjxUsAAAH]
+10.7.2026, 17:20:43 - INFO - /api/review | GET |  | {} | 6a509f29717d8531321687ac
+10.7.2026, 17:21:16 - INFO - Server is running on port: 3030
+10.7.2026, 17:21:17 - INFO - New connected socket [id: G1vtQ5yevrpoHMfcAAAC]
+10.7.2026, 17:21:17 - INFO - New connected socket [id: jeA6iG0PmU3iCyCqAAAD]
+10.7.2026, 17:21:19 - INFO - Server is running on port: 3030
+10.7.2026, 17:21:20 - INFO - New connected socket [id: tH-tv8rnOTNyjuHTAAAC]
+10.7.2026, 17:21:20 - INFO - New connected socket [id: WQJAWX2BBEAGxHlxAAAD]
+10.7.2026, 17:22:00 - INFO - Server is running on port: 3030
+10.7.2026, 17:22:01 - INFO - New connected socket [id: vGtyrfLlMyn8cTIIAAAB]
+10.7.2026, 17:22:02 - INFO - New connected socket [id: mz7L7uEiHgB0y3PmAAAD]
+10.7.2026, 17:23:15 - INFO - Server is running on port: 3030
+10.7.2026, 17:23:16 - INFO - New connected socket [id: 6YczVHepBW6fWnB7AAAB]
+10.7.2026, 17:23:17 - INFO - Socket disconnected [id: undefined]
+10.7.2026, 17:23:17 - INFO - New connected socket [id: hiD1w6bpAp3xqP15AAAD]
+10.7.2026, 17:23:17 - INFO - New connected socket [id: jIKeSW-4IDVfhzi-AAAF]
+10.7.2026, 17:23:17 - INFO - Setting socket.userId = 6a509f29717d8531321687ac for socket [id: jIKeSW-4IDVfhzi-AAAF]
+10.7.2026, 17:23:18 - INFO - Setting socket.userId = 6a509f29717d8531321687ac for socket [id: jIKeSW-4IDVfhzi-AAAF]
+10.7.2026, 17:23:18 - INFO - /api/review | GET |  | {} | 6a509f29717d8531321687ac
+10.7.2026, 17:23:27 - INFO - /api/review | GET |  | {} | 6a509f29717d8531321687ac
+10.7.2026, 17:23:31 - INFO - Socket disconnected [id: undefined]
+10.7.2026, 17:23:31 - INFO - New connected socket [id: WgaSpI83qEDfX6l0AAAH]
+10.7.2026, 17:23:31 - INFO - Setting socket.userId = 6a509f29717d8531321687ac for socket [id: WgaSpI83qEDfX6l0AAAH]
+10.7.2026, 17:23:32 - INFO - Setting socket.userId = 6a509f29717d8531321687ac for socket [id: WgaSpI83qEDfX6l0AAAH]
+10.7.2026, 17:23:38 - INFO - /api/review | GET |  | {} | 6a509f29717d8531321687ac
+10.7.2026, 17:24:32 - INFO - Socket disconnected [id: undefined]
+10.7.2026, 17:24:32 - INFO - New connected socket [id: 6NfReqELRaDUxXzNAAAJ]
+10.7.2026, 17:24:33 - INFO - Setting socket.userId = 6a509f29717d8531321687ac for socket [id: 6NfReqELRaDUxXzNAAAJ]
+10.7.2026, 17:24:33 - INFO - Setting socket.userId = 6a509f29717d8531321687ac for socket [id: 6NfReqELRaDUxXzNAAAJ]
+10.7.2026, 17:24:41 - INFO - Socket disconnected [id: undefined]
+10.7.2026, 17:24:41 - INFO - New connected socket [id: D3XL8NPgX3jJ5ZtiAAAL]
+10.7.2026, 17:24:42 - INFO - Setting socket.userId = 6a509f29717d8531321687ac for socket [id: D3XL8NPgX3jJ5ZtiAAAL]
+10.7.2026, 17:24:42 - INFO - Setting socket.userId = 6a509f29717d8531321687ac for socket [id: D3XL8NPgX3jJ5ZtiAAAL]
+10.7.2026, 17:24:50 - INFO - /api/review | GET |  | {} | 6a509f29717d8531321687ac
+10.7.2026, 17:24:59 - INFO - Socket disconnected [id: undefined]
+10.7.2026, 17:24:59 - INFO - New connected socket [id: 9soWqQqjeKcWJ2mVAAAN]
+10.7.2026, 17:24:59 - INFO - Setting socket.userId = 6a509f29717d8531321687ac for socket [id: 9soWqQqjeKcWJ2mVAAAN]
+10.7.2026, 17:25:00 - INFO - Setting socket.userId = 6a509f29717d8531321687ac for socket [id: 9soWqQqjeKcWJ2mVAAAN]
+10.7.2026, 17:25:02 - INFO - Socket disconnected [id: undefined]
+10.7.2026, 17:25:03 - INFO - Socket disconnected [id: undefined]
+10.7.2026, 17:25:03 - INFO - New connected socket [id: UTNMtPs_15UWra66AAAP]
+10.7.2026, 17:25:03 - INFO - Setting socket.userId = 6a509f29717d8531321687ac for socket [id: UTNMtPs_15UWra66AAAP]
+10.7.2026, 17:25:03 - INFO - /api/review | GET |  | {} | 6a509f29717d8531321687ac
+10.7.2026, 17:25:03 - INFO - Setting socket.userId = 6a509f29717d8531321687ac for socket [id: UTNMtPs_15UWra66AAAP]
+10.7.2026, 17:25:06 - INFO - Socket disconnected [id: undefined]
+10.7.2026, 17:25:06 - INFO - New connected socket [id: ilT0YHwtoCANc7qtAAAR]
+10.7.2026, 17:25:06 - INFO - Setting socket.userId = 6a509f29717d8531321687ac for socket [id: ilT0YHwtoCANc7qtAAAR]
+10.7.2026, 17:25:06 - INFO - Setting socket.userId = 6a509f29717d8531321687ac for socket [id: ilT0YHwtoCANc7qtAAAR]
+10.7.2026, 17:25:09 - INFO - Socket disconnected [id: undefined]
+10.7.2026, 17:25:09 - INFO - New connected socket [id: pulJvYIVN5zuQZvqAAAT]
+10.7.2026, 17:25:10 - INFO - Setting socket.userId = 6a509f29717d8531321687ac for socket [id: pulJvYIVN5zuQZvqAAAT]
+10.7.2026, 17:25:10 - INFO - Setting socket.userId = 6a509f29717d8531321687ac for socket [id: pulJvYIVN5zuQZvqAAAT]
+10.7.2026, 17:25:14 - INFO - /api/review | GET |  | {} | 6a509f29717d8531321687ac
+10.7.2026, 17:26:37 - INFO - /api/review | GET |  | {} | 6a509f29717d8531321687ac
+10.7.2026, 17:26:37 - INFO - Setting socket.userId = 6a509f29717d8531321687ac for socket [id: pulJvYIVN5zuQZvqAAAT]
+10.7.2026, 17:26:39 - INFO - Socket disconnected [id: undefined]
+10.7.2026, 17:26:39 - INFO - New connected socket [id: uHmwI9yLWYcBWGlYAAAV]
+10.7.2026, 17:26:39 - INFO - Setting socket.userId = 6a509f29717d8531321687ac for socket [id: uHmwI9yLWYcBWGlYAAAV]
+10.7.2026, 17:26:40 - INFO - /api/review | GET |  | {} | 6a509f29717d8531321687ac
+10.7.2026, 17:26:40 - INFO - Setting socket.userId = 6a509f29717d8531321687ac for socket [id: uHmwI9yLWYcBWGlYAAAV]
+10.7.2026, 17:27:51 - INFO - Server is running on port: 3030
+10.7.2026, 17:27:51 - INFO - New connected socket [id: H-2_gHLculLwaYvUAAAB]
+10.7.2026, 17:27:52 - INFO - Socket disconnected [id: undefined]
+10.7.2026, 17:27:52 - INFO - New connected socket [id: 1GgonNyYEBy6U0ruAAAD]
+10.7.2026, 17:27:52 - INFO - Setting socket.userId = 6a509f29717d8531321687ac for socket [id: 1GgonNyYEBy6U0ruAAAD]
+10.7.2026, 17:27:53 - INFO - Setting socket.userId = 6a509f29717d8531321687ac for socket [id: 1GgonNyYEBy6U0ruAAAD]
+10.7.2026, 17:27:54 - INFO - /api/review | GET |  | {} | 6a509f29717d8531321687ac
+10.7.2026, 17:28:38 - INFO - Setting socket.userId = 6a509f29717d8531321687ac for socket [id: 1GgonNyYEBy6U0ruAAAD]
+10.7.2026, 17:28:39 - INFO - Socket disconnected [id: undefined]
+10.7.2026, 17:28:39 - INFO - New connected socket [id: DM8HsxMr4U-lQnszAAAF]
+10.7.2026, 17:28:39 - INFO - Setting socket.userId = 6a509f29717d8531321687ac for socket [id: DM8HsxMr4U-lQnszAAAF]
+10.7.2026, 17:28:39 - INFO - Setting socket.userId = 6a509f29717d8531321687ac for socket [id: DM8HsxMr4U-lQnszAAAF]
+10.7.2026, 17:28:43 - INFO - /api/review | GET |  | {} | 6a509f29717d8531321687ac
+10.7.2026, 17:28:43 - INFO - Setting socket.userId = 6a509f29717d8531321687ac for socket [id: DM8HsxMr4U-lQnszAAAF]
+10.7.2026, 17:28:46 - INFO - /api/review | GET |  | {} | 6a509f29717d8531321687ac
+10.7.2026, 17:28:46 - INFO - Setting socket.userId = 6a509f29717d8531321687ac for socket [id: DM8HsxMr4U-lQnszAAAF]
+10.7.2026, 17:28:48 - INFO - /api/review | GET |  | {} | 6a509f29717d8531321687ac
+10.7.2026, 17:28:48 - INFO - Setting socket.userId = 6a509f29717d8531321687ac for socket [id: DM8HsxMr4U-lQnszAAAF]
+10.7.2026, 17:29:27 - INFO - /api/review | GET |  | {} | 6a509f29717d8531321687ac
+10.7.2026, 17:29:27 - INFO - Setting socket.userId = 6a509f29717d8531321687ac for socket [id: DM8HsxMr4U-lQnszAAAF]
+10.7.2026, 17:29:28 - INFO - Socket disconnected [id: undefined]
+10.7.2026, 17:29:28 - INFO - New connected socket [id: NjCMBeIQU-kFthQaAAAH]
+10.7.2026, 17:29:29 - INFO - Setting socket.userId = 6a509f29717d8531321687ac for socket [id: NjCMBeIQU-kFthQaAAAH]
+10.7.2026, 17:29:29 - INFO - /api/review | GET |  | {} | 6a509f29717d8531321687ac
+10.7.2026, 17:29:29 - INFO - Setting socket.userId = 6a509f29717d8531321687ac for socket [id: NjCMBeIQU-kFthQaAAAH]
+10.7.2026, 17:29:41 - INFO - Socket disconnected [id: undefined]
+10.7.2026, 17:29:41 - INFO - New connected socket [id: HE940tLr92VAOHqpAAAJ]
+10.7.2026, 17:29:41 - INFO - Setting socket.userId = 6a509f29717d8531321687ac for socket [id: HE940tLr92VAOHqpAAAJ]
+10.7.2026, 17:29:42 - INFO - Setting socket.userId = 6a509f29717d8531321687ac for socket [id: HE940tLr92VAOHqpAAAJ]
+10.7.2026, 17:29:49 - INFO - /api/review | GET |  | {} | 6a509f29717d8531321687ac
+10.7.2026, 17:29:50 - INFO - Socket disconnected [id: undefined]
+10.7.2026, 17:29:50 - INFO - New connected socket [id: NwvKfaeLy21QkVovAAAL]
+10.7.2026, 17:29:51 - INFO - Setting socket.userId = 6a509f29717d8531321687ac for socket [id: NwvKfaeLy21QkVovAAAL]
+10.7.2026, 17:29:51 - INFO - /api/review | GET |  | {} | 6a509f29717d8531321687ac
+10.7.2026, 17:29:51 - INFO - Setting socket.userId = 6a509f29717d8531321687ac for socket [id: NwvKfaeLy21QkVovAAAL]
+10.7.2026, 17:30:17 - INFO - /api/review | GET |  | {} | 6a509f29717d8531321687ac
+10.7.2026, 17:30:17 - INFO - Setting socket.userId = 6a509f29717d8531321687ac for socket [id: NwvKfaeLy21QkVovAAAL]
+10.7.2026, 17:30:18 - INFO - Socket disconnected [id: undefined]
+10.7.2026, 17:30:18 - INFO - New connected socket [id: 6XT12M7j2zjg8BVsAAAN]
+10.7.2026, 17:30:18 - INFO - Setting socket.userId = 6a509f29717d8531321687ac for socket [id: 6XT12M7j2zjg8BVsAAAN]
+10.7.2026, 17:30:19 - INFO - /api/review | GET |  | {} | 6a509f29717d8531321687ac
+10.7.2026, 17:30:19 - INFO - Setting socket.userId = 6a509f29717d8531321687ac for socket [id: 6XT12M7j2zjg8BVsAAAN]
+10.7.2026, 17:30:49 - INFO - Socket disconnected [id: undefined]
+10.7.2026, 17:30:50 - INFO - New connected socket [id: kxT8D9EzaJ_YJFojAAAP]
+10.7.2026, 17:30:50 - INFO - Setting socket.userId = 6a509f29717d8531321687ac for socket [id: kxT8D9EzaJ_YJFojAAAP]
+10.7.2026, 17:30:50 - INFO - Setting socket.userId = 6a509f29717d8531321687ac for socket [id: kxT8D9EzaJ_YJFojAAAP]
+10.7.2026, 17:31:09 - INFO - /api/review | GET |  | {} | 6a509f29717d8531321687ac
+10.7.2026, 17:31:09 - INFO - Setting socket.userId = 6a509f29717d8531321687ac for socket [id: kxT8D9EzaJ_YJFojAAAP]
+10.7.2026, 17:31:12 - INFO - Socket disconnected [id: undefined]
+10.7.2026, 17:31:12 - INFO - New connected socket [id: C2lOooGkXpNoKH3PAAAR]
+10.7.2026, 17:31:13 - INFO - Setting socket.userId = 6a509f29717d8531321687ac for socket [id: C2lOooGkXpNoKH3PAAAR]
+10.7.2026, 17:31:13 - INFO - /api/review | GET |  | {} | 6a509f29717d8531321687ac
+10.7.2026, 17:31:13 - INFO - Setting socket.userId = 6a509f29717d8531321687ac for socket [id: C2lOooGkXpNoKH3PAAAR]
+10.7.2026, 17:32:02 - INFO - Socket disconnected [id: undefined]
+10.7.2026, 17:32:03 - INFO - New connected socket [id: DG4jcsubenMPNuAAAAAT]
+10.7.2026, 17:32:03 - INFO - Setting socket.userId = 6a509f29717d8531321687ac for socket [id: DG4jcsubenMPNuAAAAAT]
+10.7.2026, 17:32:03 - INFO - Setting socket.userId = 6a509f29717d8531321687ac for socket [id: DG4jcsubenMPNuAAAAAT]
+10.7.2026, 17:32:03 - INFO - /api/review | GET |  | {} | 6a509f29717d8531321687ac
+10.7.2026, 17:33:33 - INFO - Socket disconnected [id: undefined]
+10.7.2026, 17:33:33 - INFO - New connected socket [id: FU8nGO5jPEZAj05bAAAV]
+10.7.2026, 17:33:34 - INFO - Setting socket.userId = 6a509f29717d8531321687ac for socket [id: FU8nGO5jPEZAj05bAAAV]
+10.7.2026, 17:33:34 - INFO - /api/review | GET |  | {} | 6a509f29717d8531321687ac
+10.7.2026, 17:33:34 - INFO - Setting socket.userId = 6a509f29717d8531321687ac for socket [id: FU8nGO5jPEZAj05bAAAV]
+10.7.2026, 17:34:02 - INFO - Socket disconnected [id: undefined]
+10.7.2026, 17:34:02 - INFO - New connected socket [id: PekIG6V8NzoPWgMjAAAX]
+10.7.2026, 17:34:02 - INFO - Setting socket.userId = 6a509f29717d8531321687ac for socket [id: PekIG6V8NzoPWgMjAAAX]
+10.7.2026, 17:34:02 - INFO - /api/review | GET |  | {} | 6a509f29717d8531321687ac
+10.7.2026, 17:34:02 - INFO - Setting socket.userId = 6a509f29717d8531321687ac for socket [id: PekIG6V8NzoPWgMjAAAX]
+10.7.2026, 17:34:40 - INFO - Socket disconnected [id: undefined]
+10.7.2026, 17:34:40 - INFO - New connected socket [id: EHrTzwyXMBvefQpQAAAZ]
+10.7.2026, 17:34:41 - INFO - Setting socket.userId = 6a509f29717d8531321687ac for socket [id: EHrTzwyXMBvefQpQAAAZ]
+10.7.2026, 17:34:41 - INFO - /api/review | GET |  | {} | 6a509f29717d8531321687ac
+10.7.2026, 17:34:41 - INFO - Setting socket.userId = 6a509f29717d8531321687ac for socket [id: EHrTzwyXMBvefQpQAAAZ]
+10.7.2026, 17:35:55 - INFO - Socket disconnected [id: undefined]
+10.7.2026, 17:35:55 - INFO - New connected socket [id: M-gVv8ynqucFRB-NAAAb]
+10.7.2026, 17:35:55 - INFO - Setting socket.userId = 6a509f29717d8531321687ac for socket [id: M-gVv8ynqucFRB-NAAAb]
+10.7.2026, 17:35:56 - INFO - /api/review | GET |  | {} | 6a509f29717d8531321687ac
+10.7.2026, 17:35:56 - INFO - Setting socket.userId = 6a509f29717d8531321687ac for socket [id: M-gVv8ynqucFRB-NAAAb]
+10.7.2026, 17:36:02 - INFO - Socket disconnected [id: undefined]
+10.7.2026, 17:36:02 - INFO - New connected socket [id: twlggu6ShgtBEl54AAAd]
+10.7.2026, 17:36:02 - INFO - Setting socket.userId = 6a509f29717d8531321687ac for socket [id: twlggu6ShgtBEl54AAAd]
+10.7.2026, 17:36:03 - INFO - /api/review | GET |  | {} | 6a509f29717d8531321687ac
+10.7.2026, 17:36:03 - INFO - Setting socket.userId = 6a509f29717d8531321687ac for socket [id: twlggu6ShgtBEl54AAAd]
+10.7.2026, 17:36:05 - INFO - Socket disconnected [id: undefined]
+10.7.2026, 17:36:06 - INFO - New connected socket [id: 3GPVdycraqgq8cFiAAAf]
+10.7.2026, 17:36:06 - INFO - Setting socket.userId = 6a509f29717d8531321687ac for socket [id: 3GPVdycraqgq8cFiAAAf]
+10.7.2026, 17:36:06 - INFO - /api/review | GET |  | {} | 6a509f29717d8531321687ac
+10.7.2026, 17:36:06 - INFO - Setting socket.userId = 6a509f29717d8531321687ac for socket [id: 3GPVdycraqgq8cFiAAAf]
+10.7.2026, 17:36:51 - INFO - Socket disconnected [id: undefined]
+10.7.2026, 17:36:51 - INFO - New connected socket [id: 3sUtawahsDPPhudLAAAh]
+10.7.2026, 17:36:51 - INFO - Setting socket.userId = 6a509f29717d8531321687ac for socket [id: 3sUtawahsDPPhudLAAAh]
+10.7.2026, 17:36:52 - INFO - Setting socket.userId = 6a509f29717d8531321687ac for socket [id: 3sUtawahsDPPhudLAAAh]
+10.7.2026, 17:36:52 - INFO - /api/review | GET |  | {} | 6a509f29717d8531321687ac
+10.7.2026, 17:39:11 - INFO - Socket disconnected [id: undefined]
+10.7.2026, 17:39:12 - INFO - New connected socket [id: 97Z4m2CCYBqoeP7wAAAj]
+10.7.2026, 17:39:12 - INFO - Setting socket.userId = 6a509f29717d8531321687ac for socket [id: 97Z4m2CCYBqoeP7wAAAj]
+10.7.2026, 17:39:13 - INFO - /api/review | GET |  | {} | 6a509f29717d8531321687ac
+10.7.2026, 17:39:13 - INFO - Setting socket.userId = 6a509f29717d8531321687ac for socket [id: 97Z4m2CCYBqoeP7wAAAj]
+10.7.2026, 17:39:42 - INFO - Socket disconnected [id: undefined]
+10.7.2026, 17:39:42 - INFO - New connected socket [id: yhxezvIgtAil3k2BAAAl]
+10.7.2026, 17:39:42 - INFO - Setting socket.userId = 6a509f29717d8531321687ac for socket [id: yhxezvIgtAil3k2BAAAl]
+10.7.2026, 17:39:43 - INFO - Setting socket.userId = 6a509f29717d8531321687ac for socket [id: yhxezvIgtAil3k2BAAAl]
+10.7.2026, 17:40:00 - INFO - /api/review | GET |  | {} | 6a509f29717d8531321687ac
+10.7.2026, 17:40:00 - INFO - Setting socket.userId = 6a509f29717d8531321687ac for socket [id: yhxezvIgtAil3k2BAAAl]
+10.7.2026, 17:40:06 - INFO - Socket disconnected [id: undefined]
+10.7.2026, 17:40:06 - INFO - New connected socket [id: pnL55mDo9M73Pq_-AAAn]
+10.7.2026, 17:40:06 - INFO - Setting socket.userId = 6a509f29717d8531321687ac for socket [id: pnL55mDo9M73Pq_-AAAn]
+10.7.2026, 17:40:07 - INFO - /api/review | GET |  | {} | 6a509f29717d8531321687ac
+10.7.2026, 17:40:07 - INFO - Setting socket.userId = 6a509f29717d8531321687ac for socket [id: pnL55mDo9M73Pq_-AAAn]
+10.7.2026, 17:40:56 - INFO - Server is running on port: 3030
+10.7.2026, 17:40:57 - INFO - New connected socket [id: zulALQ3FIWtE6KoxAAAB]
