@@ -5,7 +5,7 @@ import gDefaultStays from './stay.json' with { type: 'json' }
 async function query(filterBy = {}) {
     try {
         const criteria = _buildCriteria(filterBy)
-        
+
         const collection = await dbService.getCollection('stay')
 
         const count = await collection.countDocuments()
@@ -23,9 +23,27 @@ async function query(filterBy = {}) {
             console.log('Seeded MongoDB with default stays!')
         }
 
-        const stays = await collection.find(criteria).toArray()
-        
+        const stays = await collection.aggregate([
+            { $match: criteria },             //Only give me stays matching the filter
+            {
+                $lookup: {
+                    from: 'review',           // go look in the 'review' collection
+                    localField: '_id',        // take this stay's _id
+                    foreignField: 'targetId', // find reviews where targetId equals it
+                    as: 'stayReviews'         // stuff them in a new field called stayReviews
+                }
+            },
+            {
+                $addFields: {
+                    reviewCount: { $size: '$stayReviews' } // Count how many are in that array, save the number as reviewCount
+                }
+            },
+            { $project: { stayReviews: 0 } } // Delete the full review array — I only wanted the count
+        ]).toArray()
+
         return stays
+
+
     } catch (err) {
         throw err
     }
