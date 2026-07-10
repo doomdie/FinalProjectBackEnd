@@ -29,20 +29,35 @@ export const authService = {
 // }
 // backend/api/auth/auth.controller.js
 
+// async function login(username, password) {
+//     logger.debug(`auth.service - login with username: ${username}`)
+   
+
+//     const collection = await dbService.getCollection('user')
+//     const user = await collection.findOne({ username })
+    
+//     if (!user) throw new Error('Invalid username or password')
+
+//     if (user.password !== password) throw new Error('Invalid username or password')
+
+//     return user
+// }
 async function login(username, password) {
     logger.debug(`auth.service - login with username: ${username}`)
-   
 
     const collection = await dbService.getCollection('user')
     const user = await collection.findOne({ username })
     
     if (!user) throw new Error('Invalid username or password')
 
-    if (user.password !== password) throw new Error('Invalid username or password')
+    const isMatch = await bcrypt.compare(password, user.password)
+    if (!isMatch) throw new Error('Invalid username or password')
 
+    delete user.password
+    if (user._id) user._id = user._id.toString()
+	
     return user
 }
-
 async function signup({ username, password, fullname, imgUrl, isAdmin }) {
 	const saltRounds = 10
 
