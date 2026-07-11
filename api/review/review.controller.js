@@ -22,18 +22,33 @@ import { reviewService } from './review.service.js'
 //     }
 // }
 // Backend: review.controller.js
+// export async function getReviews(req, res) {
+//     try {
+//         const filterBy = {
+//             targetId: req.query.targetId,
+           
+//         }
+//         const reviews = await reviewService.query(filterBy)
+//         res.send(reviews)
+//     } catch (err) {
+//         res.status(400).send({ err: 'Failed to get reviews' })
+//     }
+// }
 export async function getReviews(req, res) {
     try {
         const filterBy = {
             targetId: req.query.targetId,
-           
+            targetType: req.query.targetType,
+            byUserId: req.query.byUserId,
         }
         const reviews = await reviewService.query(filterBy)
         res.send(reviews)
     } catch (err) {
+        logger.error('Cannot get reviews', err)
         res.status(400).send({ err: 'Failed to get reviews' })
     }
 }
+
 // }
 
 export async function deleteReview(req, res) {

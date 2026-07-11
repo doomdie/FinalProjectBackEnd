@@ -106,17 +106,17 @@ async function save(stay) {
 export async function getById(stayId) {
     try {
         const collection = await dbService.getCollection('stay')
-        
+
         // Log exactly what we are searching for
         console.log('DEBUG: Backend searching for stayId:', stayId)
-        
+
         const stay = await collection.findOne({ _id: new ObjectId(stayId) })
-        
+
         if (!stay) {
             console.error(`ERROR: Stay ${stayId} NOT FOUND in MongoDB`)
             throw new Error(`Stay ${stayId} not found`)
         }
-        
+
         return stay
     } catch (err) {
         throw err
@@ -143,6 +143,7 @@ function _buildCriteria(filterBy) {
         const wanted = filterBy.amenities.split(',')
         criteria.amenities = { $all: wanted }
     }
+   
 
     if (filterBy.likedByUserId) {
         criteria.likedByUsers = filterBy.likedByUserId
