@@ -41,7 +41,7 @@ async function getById(userId) {
         criteria = { byUserId: userId }
 
         user.givenReviews = await reviewService.query(criteria)
-        console.log(user.givenReviews)
+        // console.log(user.givenReviews)
         user.givenReviews = user.givenReviews.map(review => {
             delete review.byUser
             return review

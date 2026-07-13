@@ -108,7 +108,7 @@ export async function getById(stayId) {
         const collection = await dbService.getCollection('stay')
 
         // Log exactly what we are searching for
-        console.log('DEBUG: Backend searching for stayId:', stayId)
+        // console.log('DEBUG: Backend searching for stayId:', stayId)
 
         const stay = await collection.findOne({ _id: new ObjectId(stayId) })
 

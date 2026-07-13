@@ -48,7 +48,6 @@ async function login(username, password) {
 
 	const collection = await dbService.getCollection('user')
 	const user = await collection.findOne({ username })
-	console.log('found user:', password) 
 	if (!user) throw new Error('Invalid username or password')
 
 	const match = await bcrypt.compare(password, user.password)
