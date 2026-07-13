@@ -13,72 +13,6 @@ export const orderService = {
 
 
 
-async function _seedPastOrders() {
-    try {
-        const orderCollection = await dbService.getCollection('order')
-        const currentOrderCount = await orderCollection.countDocuments()
-
-        if (currentOrderCount > 0) return
-
-        console.log('Seeding 3 past orders for every user in the database...')
-
-        const userCollection = await dbService.getCollection('user')
-        const stayCollection = await dbService.getCollection('stay')
-
-        const users = await userCollection.find({}).toArray()
-        const stays = await stayCollection.find({}).toArray()
-
-        if (!users.length || !stays.length) {
-            console.error('Cannot seed orders: Missing users or stays collections data.')
-            return
-        }
-
-        const ordersToInsert = []
-        const today = new Date()
-
-        users.forEach(user => {
-            for (let i = 1; i <= 3; i++) {
-                const randomStay = stays[Math.floor(Math.random() * stays.length)]
-                const pastStartDate = new Date(today)
-                pastStartDate.setDate(today.getDate() - (i * 5) - 3)
-
-                const pastEndDate = new Date(pastStartDate)
-                pastEndDate.setDate(pastStartDate.getDate() + 3)
-
-                const mockOrder = {
-                    hostId: randomStay.host._id || randomStay.host.id,
-                    buyer: {
-                        _id: user._id,
-                        fullname: user.fullname
-                    },
-                    stay: {
-                        _id: randomStay._id,
-                        name: randomStay.name,
-                        price: randomStay.price
-                    },
-                    startDate: pastStartDate.toISOString().split('T')[0], // "YYYY-MM-DD"
-                    endDate: pastEndDate.toISOString().split('T')[0],
-                    guests: {
-                        adults: Math.floor(Math.random() * 2) + 1,
-                        children: 0,
-                        infants: 0,
-                        pets: 0
-                    },
-                    totalPrice: randomStay.price * 3,
-                    status: 'approved'
-                }
-
-                ordersToInsert.push(mockOrder)
-            }
-        })
-
-        await orderCollection.insertMany(ordersToInsert)
-        console.log(` Successfully seeded ${ordersToInsert.length} historic orders into MongoDB!`)
-
-    } catch (err) {
-        console.error(' Failed to seed historic order collection:', err)
-    }
-}
 // async function query(filterBy = {}) {
 //     try {
 //         const collection = await dbService.getCollection('order')
@@ -105,12 +39,12 @@ async function query(filterBy = {}) {
             ]
         }
 
-        if (filterBy.status) {
-            criteria.status = filterBy.status
+        if (filterBy.upcoming === 'true' || filterBy.upcoming === true) {
+            const today = new Date().toISOString().split('T')[0]
+            criteria.endDate = { $gte: today }
         }
 
         const collection = await dbService.getCollection('order')
-
         const orders = await collection.find(criteria).toArray()
         return orders
     } catch (err) {
@@ -156,6 +90,7 @@ async function update(order) {
     try {
         const collection = await dbService.getCollection('order')
         const id = order._id
+        if (!id) throw new Error('missing _id') 
         const orderToSave = { ...order }
         delete orderToSave._id
 
