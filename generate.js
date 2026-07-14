@@ -4,47 +4,33 @@ import { MongoClient, ObjectId } from 'mongodb'
 const DRY_RUN = false   // true = only print what WOULD be created, false = actually insert
 const MONGO_URL = process.env.MONGO_URL || 'mongodb+srv://yair123:yair123@cluster0.gixxl2w.mongodb.net/?retryWrites=true&w=majority'
 const DB_NAME = 'tester_db'
-const HOST_ID = '6a56179b66e321901a0e4bc3'   // Yair - reviews go on this host's stays
-const REVIEWS_PER_STAY = 5
+const HOST_ID = '6a56179b66e321901a0e4bc3'   // Yair - orders are created on his stays
+const EARLIEST_FALLBACK = new Date('2022-01-01')   // used if a reviewer has no createdAt
 // ========================================================
 
-const REVIEW_TEXTS = [
-    'Amazing place, highly recommended! Great location and clean.',
-    'Had a wonderful stay. The host was super responsive and helpful.',
-    'Beautiful apartment, exactly like the photos. Would book again!',
-    'Great value for the price. Comfortable beds and a fully equipped kitchen.',
-    'Perfect location, walking distance to everything we wanted to see.',
-    'Spotlessly clean and very cozy. Check-in was smooth and easy.',
-    'Lovely views and a quiet neighborhood. We slept great every night.',
-    'The host thought of everything - great communication throughout.',
-    'Stylish, comfortable, and even better in person. Highly recommend.',
-    'Fantastic experience from start to finish. Five stars well earned.',
-    'Everything was as described. Quick responses and great local tips.',
-    'Charming place with lots of character. We loved our stay here.',
-    'Super comfortable and immaculate. The photos do not do it justice.',
-    'Ideal for our family trip - spacious, clean, and well located.',
-    'One of the best stays we have had. Warm host and a beautiful home.',
-]
+function pad(n) { return String(n).padStart(2, '0') }
+function toDateStr(d) { return `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}` }
 
-function shuffle(arr) {
-    const a = [...arr]
-    for (let i = a.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1))
-        ;[a[i], a[j]] = [a[j], a[i]]
-    }
-    return a
+function randomStayDates(joinDate) {
+    const floor = new Date(Math.max(joinDate.getTime() + 14 * 86400000, EARLIEST_FALLBACK.getTime()))
+    const ceiling = new Date(Date.now() - 21 * 86400000)   // ends at least ~3 weeks ago
+
+    const nights = 2 + Math.floor(Math.random() * 6)   // 2-7 nights
+
+    const span = ceiling.getTime() - nights * 86400000 - floor.getTime()
+    const startMs = span > 0
+        ? floor.getTime() + Math.floor(Math.random() * span)
+        : floor.getTime()
+
+    const start = new Date(startMs)
+    const end = new Date(startMs + nights * 86400000)
+    return { start, end, nights }
 }
 
-function randomPastDate(maxDaysAgo = 240) {
-    const daysAgo = 3 + Math.floor(Math.random() * maxDaysAgo)
-    const d = new Date()
-    d.setDate(d.getDate() - daysAgo)
-    d.setHours(Math.floor(Math.random() * 24), Math.floor(Math.random() * 60), Math.floor(Math.random() * 60))
-    return d
-}
-
-function toObjectId(id) {
-    return typeof id === 'string' ? new ObjectId(id) : id
+function randomGuests(capacity = 4) {
+    const adults = 1 + Math.floor(Math.random() * Math.min(3, capacity))
+    const children = Math.random() < 0.3 ? 1 : 0
+    return { adults, children }
 }
 
 async function run() {
@@ -55,6 +41,7 @@ async function run() {
         const stayCollection = db.collection('stay')
         const userCollection = db.collection('user')
         const reviewCollection = db.collection('review')
+        const orderCollection = db.collection('order')
 
         const stays = await stayCollection
             .find({ $or: [{ 'host._id': HOST_ID }, { 'host._id': new ObjectId(HOST_ID) }] })
@@ -64,56 +51,85 @@ async function run() {
             console.log(`No stays found for host ${HOST_ID} - aborting.`)
             return
         }
-        console.log(`Found ${stays.length} stay(s) for the host:`)
-        stays.forEach(s => console.log(`  - "${s.name}" (${s._id})`))
+        const stayById = new Map(stays.map(s => [s._id.toString(), s]))
+        console.log(`Host stays found: ${stays.length}`)
 
-        const reviewers = await userCollection
+        const stayIds = stays.map(s => s._id)
+        const stayIdStrings = stays.map(s => s._id.toString())
+
+        const reviews = await reviewCollection
             .find({
-                _id: { $nin: [new ObjectId(HOST_ID)] },
-                fullname: { $ne: null },
+                targetType: 'stay',
+                $or: [
+                    { targetId: { $in: stayIds } },
+                    { targetId: { $in: stayIdStrings } },
+                ],
             })
             .toArray()
 
-        if (reviewers.length < REVIEWS_PER_STAY) {
-            console.log(`Only ${reviewers.length} eligible reviewer(s) in the database - need at least ${REVIEWS_PER_STAY}. Aborting.`)
+        if (!reviews.length) {
+            console.log('No reviews found on these stays - aborting.')
             return
         }
-        console.log(`\nEligible reviewers (host excluded): ${reviewers.length}`)
+        console.log(`Reviews found on host stays: ${reviews.length}`)
 
-        const newReviews = []
-        let textIdx = 0
-        const shuffledTexts = shuffle(REVIEW_TEXTS)
+        // unique (reviewer, stay) pairs - one order per review pair
+        const pairs = new Map()
+        for (const r of reviews) {
+            if (!r.byUserId) continue
+            const key = `${r.byUserId.toString()}|${r.targetId.toString()}`
+            if (!pairs.has(key)) pairs.set(key, { userId: r.byUserId.toString(), stayId: r.targetId.toString() })
+        }
 
-        for (const stay of stays) {
-            // fresh shuffle per stay: 5 DISTINCT users for this stay,
-            // but the same user may appear again on a different stay
-            const pickedUsers = shuffle(reviewers).slice(0, REVIEWS_PER_STAY)
+        const reviewerIds = [...new Set([...pairs.values()].map(p => p.userId))]
+        const reviewers = await userCollection
+            .find({ _id: { $in: reviewerIds.map(id => new ObjectId(id)) } })
+            .toArray()
+        const userById = new Map(reviewers.map(u => [u._id.toString(), u]))
+        console.log(`Distinct reviewers: ${reviewerIds.length} (${reviewers.length} found in user collection)`)
 
-            for (const user of pickedUsers) {
-                newReviews.push({
-                    txt: shuffledTexts[textIdx++ % shuffledTexts.length],
-                    rating: 4 + Math.round(Math.random()),   // 4 or 5
-                    targetType: 'stay',
-                    createdAt: randomPastDate(),
-                    targetId: toObjectId(stay._id),
-                    byUserId: toObjectId(user._id),
-                })
-            }
+        const newOrders = []
+        for (const { userId, stayId } of pairs.values()) {
+            const user = userById.get(userId)
+            const stay = stayById.get(stayId)
+            if (!user || !stay) continue
 
-            console.log(`\n"${stay.name}" gets ${REVIEWS_PER_STAY} reviews from:`)
-            pickedUsers.forEach((u, i) => {
-                const r = newReviews[newReviews.length - REVIEWS_PER_STAY + i]
-                console.log(`  - ${u.fullname} (${u.username}) | ${r.rating}★ | "${r.txt.slice(0, 50)}..."`)
+            const joinDate = user.createdAt ? new Date(user.createdAt) : EARLIEST_FALLBACK
+            const { start, end, nights } = randomStayDates(joinDate)
+
+            newOrders.push({
+                hostId: HOST_ID,
+                buyer: {
+                    _id: user._id.toString(),
+                    fullname: user.fullname || 'Guest',
+                },
+                stay: {
+                    _id: stay._id,
+                    name: stay.name,
+                    price: stay.price,
+                },
+                startDate: toDateStr(start),
+                endDate: toDateStr(end),
+                guests: randomGuests(stay.capacity),
+                totalPrice: nights * stay.price,
+                imgUrl: stay.imgUrls?.[0] || '',
             })
         }
 
+        console.log(`\nOrders to create: ${newOrders.length}`)
+        newOrders.forEach(o => {
+            const joined = userById.get(o.buyer._id)?.createdAt
+            console.log(`  - ${o.buyer.fullname} @ "${o.stay.name}" | ${o.startDate} -> ${o.endDate} | total ${o.totalPrice}` +
+                (joined ? ` | joined ${toDateStr(new Date(joined))}` : ' | joined: unknown (fallback floor)'))
+        })
+
         if (DRY_RUN) {
-            console.log(`\n[DRY RUN] Nothing was inserted. Set DRY_RUN = false to create ${newReviews.length} reviews for real.`)
+            console.log(`\n[DRY RUN] Nothing was inserted. Set DRY_RUN = false to create ${newOrders.length} orders for real.`)
             return
         }
 
-        const result = await reviewCollection.insertMany(newReviews)
-        console.log(`\nInserted ${result.insertedCount} reviews across ${stays.length} stays`)
+        const result = await orderCollection.insertMany(newOrders)
+        console.log(`\nInserted ${result.insertedCount} orders for host ${HOST_ID}`)
     } finally {
         await client.close()
     }
