@@ -1,6 +1,7 @@
 // backend/api/order/order.controller.js
 import { orderService } from './order.service.js'
 import { logger } from '../../services/logger.service.js'
+import { socketService } from '../../services/socket.service.js'
 
 export async function getOrders(req, res) {
     try {
@@ -28,8 +29,9 @@ export async function addOrder(req, res) {
     try {
         const order = req.body
         // potential like.. filtering. maybe
-        
+
         const addedOrder = await orderService.add(order)
+        socketService.emitToUser({ type: 'order-added', data: addedOrder, userId: addedOrder.hostId })
         res.json(addedOrder)
     } catch (err) {
         logger.error('Failed to add order', err)
@@ -41,6 +43,10 @@ export async function updateOrder(req, res) {
     try {
         const order = req.body
         const updatedOrder = await orderService.update(order)
+        // status change (approved/declined) → tell the guest live
+        if (updatedOrder.buyer?._id) {
+            socketService.emitToUser({ type: 'order-updated', data: updatedOrder, userId: updatedOrder.buyer._id })
+        }
         res.json(updatedOrder)
     } catch (err) {
         logger.error('Failed to update order', err)
