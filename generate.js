@@ -1,65 +1,58 @@
-import 'dotenv/config'
-import { dbService } from './services/db.service.js'
+import { MongoClient } from 'mongodb'
 
-const DRY_RUN = false  // ← flip to false to actually delete
+// ======================= SETTINGS =======================
+const DRY_RUN = false   // true = only print what WOULD be deleted, false = actually delete
+const MONGO_URL = process.env.MONGO_URL || 'mongodb+srv://yair123:yair123@cluster0.gixxl2w.mongodb.net/?retryWrites=true&w=majority'
+const DB_NAME = 'tester_db'
+const HOST_ID = '6a56179b66e321901a0e4bc3'   // Yair - the order is removed from HIS reservations
+// ========================================================
 
-async function purgeBoris() {
-    const userCol = await dbService.getCollection('user')
-    const reviewCol = await dbService.getCollection('review')
-    const orderCol = await dbService.getCollection('order')
-
-    if (DRY_RUN) console.log('=== DRY RUN — nothing will be deleted ===')
-    else console.log('=== LIVE RUN — deletions WILL happen ===')
-
-    const borises = await userCol.find({ fullname: { $regex: 'boris', $options: 'i' } }).toArray()
-
-    if (!borises.length) {
-        console.log('No users named Boris found')
-        return
-    }
-
-    console.log(`\nFound ${borises.length} Boris(es):`)
-    borises.forEach(user => console.log(`  - ${user.fullname} (${user._id})`))
-
-    const borisObjectIds = borises.map(user => user._id)
-    const borisStringIds = borises.map(user => user._id.toString())
-
-    const reviewCriteria = { byUserId: { $in: borisObjectIds } }
-    const orderCriteria = { 'buyer._id': { $in: borisStringIds } }
-
-    const doomedReviews = await reviewCol.find(reviewCriteria).toArray()
-    const doomedOrders = await orderCol.find(orderCriteria).toArray()
-
-    console.log(`\nReviews by them: ${doomedReviews.length}`)
-    doomedReviews.forEach(review => {
-        const preview = (review.txt || '').slice(0, 50)
-        console.log(`  - "${preview}..." [${review.targetType}] (${review._id})`)
-    })
-
-    console.log(`\nOrders by them: ${doomedOrders.length}`)
-    doomedOrders.forEach(order => {
-        console.log(`  - ${order.stay?.name || 'unknown stay'} ${order.startDate} → ${order.endDate} (${order._id})`)
-    })
-
-    if (!doomedReviews.length && !doomedOrders.length) {
-        console.log('\nNothing to delete.')
-        return
-    }
-
-    if (DRY_RUN) {
-        console.log(`\nDRY RUN complete. WOULD delete: ${doomedReviews.length} reviews, ${doomedOrders.length} orders.`)
-        console.log('Set DRY_RUN to false and run again to execute.')
-        return
-    }
-
-    const reviewResult = await reviewCol.deleteMany(reviewCriteria)
-    const orderResult = await orderCol.deleteMany(orderCriteria)
-    console.log(`\nDeleted ${reviewResult.deletedCount} reviews, ${orderResult.deletedCount} orders.`)
+function todayStr() {
+    const d = new Date()
+    const pad = n => String(n).padStart(2, '0')
+    return `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}`
 }
 
-purgeBoris()
-    .catch(err => {
-        console.error('Script failed:', err)
-        process.exitCode = 1
-    })
-    .finally(() => process.exit())
+async function run() {
+    const client = await MongoClient.connect(MONGO_URL)
+    const db = client.db(DB_NAME)
+
+    try {
+        const orderCollection = db.collection('order')
+        const today = todayStr()
+
+        // upcoming = checkout date is today or later ("YYYY-MM-DD" strings compare correctly)
+        const upcomingOrders = await orderCollection
+            .find({ hostId: HOST_ID, endDate: { $gte: today } })
+            .sort({ _id: -1 })   // ObjectId encodes creation time: newest first
+            .toArray()
+
+        if (!upcomingOrders.length) {
+            console.log(`No upcoming orders found for host ${HOST_ID} - nothing to delete.`)
+            return
+        }
+
+        console.log(`Upcoming orders for the host (newest first): ${upcomingOrders.length}`)
+        upcomingOrders.forEach((o, i) => {
+            const marker = i === 0 ? '  << WILL BE DELETED' : ''
+            console.log(`  - ${o.buyer?.fullname || 'Unknown'} @ "${o.stay?.name || '?'}" | ${o.startDate} -> ${o.endDate} | total ${o.totalPrice} | _id ${o._id}${marker}`)
+        })
+
+        const target = upcomingOrders[0]
+
+        if (DRY_RUN) {
+            console.log(`\n[DRY RUN] Nothing was deleted. Set DRY_RUN = false to delete the marked order.`)
+            return
+        }
+
+        const result = await orderCollection.deleteOne({ _id: target._id })
+        console.log(`\nDeleted ${result.deletedCount} order: ${target.buyer?.fullname} @ "${target.stay?.name}" (${target.startDate} -> ${target.endDate})`)
+    } finally {
+        await client.close()
+    }
+}
+
+run().catch(err => {
+    console.error('Script failed:', err)
+    process.exit(1)
+})
